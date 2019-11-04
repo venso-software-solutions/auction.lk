@@ -12,5 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auction');
 });
+
+Route::get('/footer', function () {
+    return view('footer');
+});
+
+
+
