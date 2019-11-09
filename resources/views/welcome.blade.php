@@ -369,6 +369,38 @@
             </div>
         </div>
 
+        <div class="characteristics">
+
+            <div class="container">
+                <div class="col-lg- advert_col">
+                    <div class="advert d-flex flex-row align-items-center justify-content-start">
+                        <div class="advert_content">
+                            <div class="advert_subtitle">Product Title</div>
+                            <div class="advert_title_2"><a href="#">price -45%</a></div>
+                            <div class="advert_text">Property size</div>
+                            <div class="advert_text">Location</div>
+                            <div class="advert_text">published date</div>
+                        </div>
+                        <div class="ml-auto">
+                            <div class="advert_image"><img src="images/adv_2.png" alt=""></div>
+                        </div>
+                    </div>
+                </div> <br>
+                <div class="col-lg- advert_col">
+                    <div class="advert d-flex flex-row align-items-center justify-content-start">
+                        <div class="advert_content">
+                            <div class="advert_subtitle">Trends 2018</div>
+                            <div class="advert_title_2"><a href="#">Sale -45%</a></div>
+                            <div class="advert_text">Lorem ipsum dolor sit amet, consectetur.</div>
+                        </div>
+                        <div class="ml-auto">
+                            <div class="advert_image"><img src="images/adv_3.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Characteristics -->
 
         <div class="characteristics">
@@ -386,6 +418,8 @@
                             </div>
                         </div>
                     </div>
+
+
 
                     <!-- Char. Item -->
                     <div class="col-lg-3 col-md-6 char_col">
@@ -425,6 +459,11 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
 
         <!-- Deals of the week -->
 
