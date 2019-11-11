@@ -494,8 +494,8 @@ section
 
 .header_main
 {
-	z-index: 1;
-	height: 80px;
+	margin-top: -30px;
+
 }
 .header.scrolled .header_main
 {
