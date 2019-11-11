@@ -1096,7 +1096,8 @@ h6,
 
 ul,
 ol {
-    padding-left: 25px;
+    padding-left:    
+    /* 25% commented */
 }
 
 .t-small {
