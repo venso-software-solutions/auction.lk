@@ -1292,8 +1292,7 @@ select option
     border-radius: 10%;
 }
 .char_item:hover {
-    width: 137px;
-    height: 102px;
+    transform: scale(1.2);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     border: solid 1px #e8e8e8;
     padding-left: 36px;

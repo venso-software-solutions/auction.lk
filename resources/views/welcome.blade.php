@@ -144,84 +144,7 @@
 
             <!-- Main Navigation -->
 
-            <nav class="main_nav">
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
 
-                            <div class="main_nav_content d-flex flex-row">
-
-
-                                <!-- Main Nav Menu -->
-
-                                <div class="main_nav_menu ml-auto">
-                                    <ul class="standard_dropdown main_nav_dropdown">
-                                        <li><a href="#">Home<i class="fas fa-chevron-down"></i></a></li>
-                                        <li class="hassubs">
-                                            <a href="#">Super Deals<i class="fas fa-chevron-down"></i></a>
-                                            <ul>
-                                                <li>
-                                                    <a href="#">Menu Item<i class="fas fa-chevron-down"></i></a>
-                                                    <ul>
-                                                        <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                                                        <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                                                        <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="hassubs">
-                                            <a href="#">Featured Brands<i class="fas fa-chevron-down"></i></a>
-                                            <ul>
-                                                <li>
-                                                    <a href="#">Menu Item<i class="fas fa-chevron-down"></i></a>
-                                                    <ul>
-                                                        <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                                                        <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                                                        <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="#">Menu Item<i class="fas fa-chevron-down"></i></a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="hassubs">
-                                            <a href="#">Pages<i class="fas fa-chevron-down"></i></a>
-                                            <ul>
-                                                <li><a href="shop.html">Shop<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="product.html">Product<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="blog.html">Blog<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="blog_single.html">Blog Post<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="regular.html">Regular Post<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="cart.html">Cart<i class="fas fa-chevron-down"></i></a></li>
-                                                <li><a href="contact.html">Contact<i class="fas fa-chevron-down"></i></a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="blog.html">Blog<i class="fas fa-chevron-down"></i></a></li>
-                                        <li><a href="contact.html">Contact<i class="fas fa-chevron-down"></i></a></li>
-                                    </ul>
-                                </div>
-
-                                <!-- Menu Trigger -->
-
-                                <div class="menu_trigger_container ml-auto">
-                                    <div class="menu_trigger d-flex flex-row align-items-center justify-content-end">
-                                        <div class="menu_burger">
-                                            <div class="menu_trigger_text">menu</div>
-                                            <div class="cat_burger menu_burger_inner"><span></span><span></span><span></span></div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
 
             <!-- Menu -->
 
@@ -317,100 +240,6 @@
         <!---->
 
 
-        <!-- Popular Categories -->
-
-        <div class="popular_categories">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3">
-                        <div class="popular_categories_content">
-                            <div class="popular_categories_title">Popular Categories</div>
-                            <div class="popular_categories_slider_nav">
-                                <div class="popular_categories_prev popular_categories_nav"><i class="fas fa-angle-left ml-auto"></i></div>
-                                <div class="popular_categories_next popular_categories_nav"><i class="fas fa-angle-right ml-auto"></i></div>
-                            </div>
-                            <div class="popular_categories_link"><a href="#">full catalog</a></div>
-                        </div>
-                    </div>
-
-                    <!-- Popular Categories Slider -->
-
-                    <div class="col-lg-9">
-                        <div class="popular_categories_slider_container">
-                            <div class="owl-carousel owl-theme popular_categories_slider">
-
-                                <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_1.png" alt=""></div>
-                                        <div class="popular_category_text">Smartphones & Tablets</div>
-                                    </div>
-                                </div>
-
-                                <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_2.png" alt=""></div>
-                                        <div class="popular_category_text">Computers & Laptops</div>
-                                    </div>
-                                </div>
-
-                                <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_3.png" alt=""></div>
-                                        <div class="popular_category_text">Gadgets</div>
-                                    </div>
-                                </div>
-
-                                <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_4.png" alt=""></div>
-                                        <div class="popular_category_text">Video Games & Consoles</div>
-                                    </div>
-                                </div>
-
-                                <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
-                                        <div class="popular_category_text">Accessories</div>
-                                    </div>
-                                </div>
-
-                                <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
-                                        <div class="popular_category_text">Accessories1</div>
-                                    </div>
-                                </div>
-
-                                <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
-                                        <div class="popular_category_text">Accessories2</div>
-                                    </div>
-                                </div>
-
-                            <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
-                                        <div class="popular_category_text">Accessories3</div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
 
 
         <!-- Characteristics -->
@@ -550,6 +379,100 @@
             </div>
         </div>
 
+        <!-- Popular Categories -->
+
+        <div class="popular_categories">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="popular_categories_content">
+                            <div class="popular_categories_title">Popular Categories</div>
+                            <div class="popular_categories_slider_nav">
+                                <div class="popular_categories_prev popular_categories_nav"><i class="fas fa-angle-left ml-auto"></i></div>
+                                <div class="popular_categories_next popular_categories_nav"><i class="fas fa-angle-right ml-auto"></i></div>
+                            </div>
+                            <div class="popular_categories_link"><a href="#">full catalog</a></div>
+                        </div>
+                    </div>
+
+                    <!-- Popular Categories Slider -->
+
+                    <div class="col-lg-9">
+                        <div class="popular_categories_slider_container">
+                            <div class="owl-carousel owl-theme popular_categories_slider">
+
+                                <!-- Popular Categories Item -->
+                                <div class="owl-item">
+                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                                        <div class="popular_category_image"><img src="images/popular_1.png" alt=""></div>
+                                        <div class="popular_category_text">Smartphones & Tablets</div>
+                                    </div>
+                                </div>
+
+                                <!-- Popular Categories Item -->
+                                <div class="owl-item">
+                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                                        <div class="popular_category_image"><img src="images/popular_2.png" alt=""></div>
+                                        <div class="popular_category_text">Computers & Laptops</div>
+                                    </div>
+                                </div>
+
+                                <!-- Popular Categories Item -->
+                                <div class="owl-item">
+                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                                        <div class="popular_category_image"><img src="images/popular_3.png" alt=""></div>
+                                        <div class="popular_category_text">Gadgets</div>
+                                    </div>
+                                </div>
+
+                                <!-- Popular Categories Item -->
+                                <div class="owl-item">
+                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                                        <div class="popular_category_image"><img src="images/popular_4.png" alt=""></div>
+                                        <div class="popular_category_text">Video Games & Consoles</div>
+                                    </div>
+                                </div>
+
+                                <!-- Popular Categories Item -->
+                                <div class="owl-item">
+                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                                        <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
+                                        <div class="popular_category_text">Accessories</div>
+                                    </div>
+                                </div>
+
+                                <!-- Popular Categories Item -->
+                                <div class="owl-item">
+                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                                        <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
+                                        <div class="popular_category_text">Accessories1</div>
+                                    </div>
+                                </div>
+
+                                <!-- Popular Categories Item -->
+                                <div class="owl-item">
+                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                                        <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
+                                        <div class="popular_category_text">Accessories2</div>
+                                    </div>
+                                </div>
+
+                            <!-- Popular Categories Item -->
+                                <div class="owl-item">
+                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
+                                        <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
+                                        <div class="popular_category_text">Accessories3</div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
 
         <!-- Trends -->
@@ -705,7 +628,7 @@
         </div>
 
         <!-- Recently Viewed -->
-{{-- 
+{{--
         <div class="viewed">
             <div class="container">
                 <div class="row">
@@ -1663,16 +1586,16 @@
                                                                                         clip-rule: evenodd;
                                                                                         fill: #4780b2
                                                                                     }
-    
+
                                                                                     .top-ad-badge_svg__st2,
                                                                                     .top-ad-badge_svg__st8 {
                                                                                         fill: #3b566e
                                                                                     }
-    
+
                                                                                     .top-ad-badge_svg__st8 {
                                                                                         fill: #666
                                                                                     }
-    
+
                                                                                     .top-ad-badge_svg__st9 {
                                                                                         opacity: .12
                                                                                     }
@@ -1789,16 +1712,16 @@
                                                                                         clip-rule: evenodd;
                                                                                         fill: #4780b2
                                                                                     }
-    
+
                                                                                     .top-ad-badge_svg__st2,
                                                                                     .top-ad-badge_svg__st8 {
                                                                                         fill: #3b566e
                                                                                     }
-    
+
                                                                                     .top-ad-badge_svg__st8 {
                                                                                         fill: #666
                                                                                     }
-    
+
                                                                                     .top-ad-badge_svg__st9 {
                                                                                         opacity: .12
                                                                                     }
@@ -1886,10 +1809,10 @@
                                                         </div>
                                                     </div>
                                                 </li>
-                                            
-                                            
-                    
-                                            
+
+
+
+
                                         </ul>
                                         <div>
                                             <div class="sticky--Q8JoO">
@@ -1933,7 +1856,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>   
+                        </div>
                     </div>
                 </div>
             </div>
