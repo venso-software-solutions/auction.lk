@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/main_styles.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/responsive.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/home.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/serp-4b31d6.css')}}">
 
 </head>
 
@@ -350,33 +351,77 @@
         </div>
 
         <div class="container">
-                <div class="col-lg- advert_col">
-                    <div class="advert d-flex flex-row align-items-center justify-content-start">
-                        <div class="advert_content">
-                            <div class="advert_subtitle">Product Title</div>
-                            <div class="advert_title_2"><a href="#">price -45%</a></div>
-                            <div class="advert_text">Property size</div>
-                            <div class="advert_text">Location</div>
-                            <div class="advert_text">published date</div>
+            <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="height: 170px;width: unset;">
+                <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
+                    <div class="container--2uFyv">
+                        <div class="image--2hizm">
+                            <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
                         </div>
-                        <div class="ml-auto">
-                            <div class="advert_image"><img src="images/adv_2.png" alt=""></div>
-                        </div>
-                    </div>
-                </div> <br>
-                <div class="col-lg- advert_col">
-                    <div class="advert d-flex flex-row align-items-center justify-content-start">
-                        <div class="advert_content">
-                            <div class="advert_subtitle">Trends 2018</div>
-                            <div class="advert_title_2"><a href="#">Sale -45%</a></div>
-                            <div class="advert_text">Lorem ipsum dolor sit amet, consectetur.</div>
-                        </div>
-                        <div class="ml-auto">
-                            <div class="advert_image"><img src="images/adv_3.png" alt=""></div>
+                        <div class="content--3JNQz">
+                            <span class="title--3yncE">Nokia</span>
+                            <div>
+                                <div>
+                                </div>
+                                <div class="sub-title--1nbZO">
+                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
+                                </div>
+                                <div class="price--3SnqI color--t0tGX">
+                                    <span>Rs 1,750</span>
+                                </div>
+                            </div>
+                            <div class="updated-time--1DbCk">10 minutes</div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </a>
+            </li>
+            <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="height: 170px;width: unset;">
+                <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
+                    <div class="container--2uFyv">
+                        <div class="image--2hizm">
+                            <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
+                        </div>
+                        <div class="content--3JNQz">
+                            <span class="title--3yncE">Nokia</span>
+                            <div>
+                                <div>
+                                </div>
+                                <div class="sub-title--1nbZO">
+                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
+                                </div>
+                                <div class="price--3SnqI color--t0tGX">
+                                    <span>Rs 1,750</span>
+                                </div>
+                            </div>
+                            <div class="updated-time--1DbCk">10 minutes</div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="height: 170px;width: unset;">
+                <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
+                    <div class="container--2uFyv">
+                        <div class="image--2hizm">
+                            <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
+                        </div>
+                        <div class="content--3JNQz">
+                            <span class="title--3yncE">Nokia</span>
+                            <div>
+                                <div>
+                                </div>
+                                <div class="sub-title--1nbZO">
+                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
+                                </div>
+                                <div class="price--3SnqI color--t0tGX">
+                                    <span>Rs 1,750</span>
+                                </div>
+                            </div>
+                            <div class="updated-time--1DbCk">10 minutes</div>
+                        </div>
+                    </div>
+                </a>
+            </li>
+
+
         </div>
 
         <!-- Popular Categories -->
@@ -413,7 +458,7 @@
                                 <div class="owl-item">
                                     <div class="popular_category d-flex flex-column align-items-center justify-content-center">
                                         <div class="popular_category_image"><img src="images/popular_2.png" alt=""></div>
-                                        <div class="popular_category_text">Computers & Laptops</div>
+                                        <div class="popular_category_text">Smartphones & Tablets</div>
                                     </div>
                                 </div>
 
@@ -421,7 +466,7 @@
                                 <div class="owl-item">
                                     <div class="popular_category d-flex flex-column align-items-center justify-content-center">
                                         <div class="popular_category_image"><img src="images/popular_3.png" alt=""></div>
-                                        <div class="popular_category_text">Gadgets</div>
+                                        <div class="popular_category_text">Smartphones & Tablets</div>
                                     </div>
                                 </div>
 
@@ -429,7 +474,7 @@
                                 <div class="owl-item">
                                     <div class="popular_category d-flex flex-column align-items-center justify-content-center">
                                         <div class="popular_category_image"><img src="images/popular_4.png" alt=""></div>
-                                        <div class="popular_category_text">Video Games & Consoles</div>
+                                        <div class="popular_category_text">Smartphones & Tablets</div>
                                     </div>
                                 </div>
 
@@ -437,7 +482,7 @@
                                 <div class="owl-item">
                                     <div class="popular_category d-flex flex-column align-items-center justify-content-center">
                                         <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
-                                        <div class="popular_category_text">Accessories</div>
+                                        <div class="popular_category_text">Smartphones & Tablets</div>
                                     </div>
                                 </div>
 
@@ -445,7 +490,7 @@
                                 <div class="owl-item">
                                     <div class="popular_category d-flex flex-column align-items-center justify-content-center">
                                         <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
-                                        <div class="popular_category_text">Accessories1</div>
+                                        <div class="popular_category_text">Smartphones & Tablets</div>
                                     </div>
                                 </div>
 
@@ -453,7 +498,7 @@
                                 <div class="owl-item">
                                     <div class="popular_category d-flex flex-column align-items-center justify-content-center">
                                         <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
-                                        <div class="popular_category_text">Accessories2</div>
+                                        <div class="popular_category_text">Smartphones & Tablets</div>
                                     </div>
                                 </div>
 
@@ -461,7 +506,7 @@
                                 <div class="owl-item">
                                     <div class="popular_category d-flex flex-column align-items-center justify-content-center">
                                         <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
-                                        <div class="popular_category_text">Accessories3</div>
+                                        <div class="popular_category_text">Smartphones & Tablets</div>
                                     </div>
                                 </div>
 
@@ -477,7 +522,7 @@
 
         <!-- Trends -->
 
-        <div class="trends">
+        {{-- <div class="trends">
             <div class="trends_background" style="background-image:url(images/trends_background.jpg)"></div>
             <div class="trends_overlay"></div>
             <div class="container">
@@ -625,7 +670,7 @@
 
                 </div>
             </div>
-        </div>
+        </div> --}}
 
         <!-- Recently Viewed -->
 {{--
