@@ -41,8 +41,9 @@
                             </div>
                         </div>
 
+
                         <!-- Search -->
-                        <div class="col-lg-9 col-12 order-lg-2 order-3 text-lg-left text-right">
+                        <div class="col-lg-5 col-12 order-lg-2 order-3 text-lg-left text-right">
                             <div class="header_search">
                                 <div class="header_search_content">
                                     <div class="header_search_form_container">
@@ -55,7 +56,19 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-3 col-sm-3 col-xs-6 col-3 order-3">
+                            <div class="logo_container">
+                                <div class="logo"><button type="button" style="width: 200px;" class="btn btn-primary">Post Add</button></div>
+
+                            </div>
+                        </div>
+
+
+
+
+
                     </div>
+
                 </div>
             </div>
 
@@ -268,75 +281,149 @@
 
         <div class="container">
             <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="height: 170px;width: unset;">
-                <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
-                    <div class="container--2uFyv">
-                        <div class="image--2hizm">
-                            <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
-                        </div>
-                        <div class="content--3JNQz">
-                            <span class="title--3yncE">Nokia</span>
-                            <div>
-                                <div>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
+                            <div class="container--2uFyv">
+                                <div class="image--2hizm">
+                                    <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
                                 </div>
-                                <div class="sub-title--1nbZO">
-                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
-                                </div>
-                                <div class="price--3SnqI color--t0tGX">
-                                    <span>Rs 1,750</span>
-                                </div>
-                            </div>
-                            <div class="updated-time--1DbCk">10 minutes</div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="height: 170px;width: unset;">
-                <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
-                    <div class="container--2uFyv">
-                        <div class="image--2hizm">
-                            <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
-                        </div>
-                        <div class="content--3JNQz">
-                            <span class="title--3yncE">Nokia</span>
-                            <div>
-                                <div>
-                                </div>
-                                <div class="sub-title--1nbZO">
-                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
-                                </div>
-                                <div class="price--3SnqI color--t0tGX">
-                                    <span>Rs 1,750</span>
-                                </div>
-                            </div>
-                            <div class="updated-time--1DbCk">10 minutes</div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="height: 170px;width: unset;">
-                <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
-                    <div class="container--2uFyv">
-                        <div class="image--2hizm">
-                            <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
-                        </div>
-                        <div class="content--3JNQz">
-                            <span class="title--3yncE">Nokia</span>
-                            <div>
-                                <div>
-                                </div>
-                                <div class="sub-title--1nbZO">
-                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
-                                </div>
-                                <div class="price--3SnqI color--t0tGX">
-                                    <span>Rs 1,750</span>
-                                </div>
-                            </div>
-                            <div class="updated-time--1DbCk">10 minutes</div>
-                        </div>
-                    </div>
-                </a>
-            </li>
 
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content--3JNQz">
+                            <span class="title--3yncE">Nokia</span>
+                            <div>
+                                <div>
+                                </div>
+                                <div class="sub-title--1nbZO">
+                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
+                                </div>
+                                <div class="price--3SnqI color--t0tGX">
+                                    <span>Rs 1,750</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 advert_col">
+
+                        <!-- Advert Item -->
+
+                        <div class="advert d-flex flex-row align-items-center justify-content-start" style="height: 150px;">
+                            <div class="advert_content">
+                                <div class="advert_title">
+                                    <h3>Last bid amount : <span>Rs500</span></h3>
+                                </div>
+                                <p>Mimal Perera <br> Colombo</p>
+                                <button type="button" class="btn btn-primary">Bid now</button>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="height: 170px;width: unset;">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
+                            <div class="container--2uFyv">
+                                <div class="image--2hizm">
+                                    <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content--3JNQz">
+                            <span class="title--3yncE">Nokia</span>
+                            <div>
+                                <div>
+                                </div>
+                                <div class="sub-title--1nbZO">
+                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
+                                </div>
+                                <div class="price--3SnqI color--t0tGX">
+                                    <span>Rs 1,750</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 advert_col">
+
+                        <!-- Advert Item -->
+
+                        <div class="advert d-flex flex-row align-items-center justify-content-start" style="height: 150px;">
+                            <div class="advert_content">
+                                <div class="advert_title">
+                                    <h3>Last bid amount : <span>Rs500</span></h3>
+                                </div>
+                                <p>Mimal Perera <br> Colombo</p>
+                                <button type="button" class="btn btn-primary">Bid now</button>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="height: 170px;width: unset;">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
+                            <div class="container--2uFyv">
+                                <div class="image--2hizm">
+                                    <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content--3JNQz">
+                            <span class="title--3yncE">Nokia</span>
+                            <div>
+                                <div>
+                                </div>
+                                <div class="sub-title--1nbZO">
+                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
+                                </div>
+                                <div class="price--3SnqI color--t0tGX">
+                                    <span>Rs 1,750</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 advert_col">
+
+                        <!-- Advert Item -->
+
+                        <div class="advert d-flex flex-row align-items-center justify-content-start" style="height: 150px;">
+                            <div class="advert_content">
+                                <div class="advert_title">
+                                    <h3>Last bid amount : <span>Rs500</span></h3>
+                                </div>
+                                <p>Mimal Perera <br> Colombo</p>
+                                <button type="button" class="btn btn-primary">Bid now</button>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
 
         </div>
 
