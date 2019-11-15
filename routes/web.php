@@ -18,3 +18,9 @@ Route::get('/', function () {
 Route::get('/footer', function () {
     return view('footer');
 });
+Route::get('/login', function () {
+    return view('login');
+});
+Route::get('/signup', function () {
+    return view('signup');
+});
