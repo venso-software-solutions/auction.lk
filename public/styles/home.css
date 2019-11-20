@@ -5519,14 +5519,22 @@ body.has-campaign .container.main {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap
 }
-    .lg-col-3--YDkH9 {
-        -ms-flex-preferred-size: 25%;
-        flex-basis: 25%;
-        min-width: 0;
-        max-width: 25%;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap
-    }
+.lg-col-3--YDkH9 {
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    min-width: 0;
+    max-width: 25%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+.lg-col-2--YDkH9 {
+    -ms-flex-preferred-size: 16.66%;
+    flex-basis: 16.66%;
+    min-width: 0;
+    max-width: 16.66%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
 .sm-col-12--30zDS {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
