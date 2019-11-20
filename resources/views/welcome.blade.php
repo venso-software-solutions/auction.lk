@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/main_styles.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/responsive.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/home.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/serp-4b31d6.css')}}">
+    {<link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/serp-4b31d6.css')}}">
 
 </head>
 
@@ -351,6 +351,7 @@
                             <div class="popular_categories_slider_nav">
                                 <div class="popular_categories_prev popular_categories_nav"><i class="fas fa-angle-left ml-auto"></i></div>
                                 <div class="popular_categories_next popular_categories_nav"><i class="fas fa-angle-right ml-auto"></i></div>
+                                <div class="popular_categories_link"><a href="#">full catalog</a></div>
                             </div>
                         </div>
                     </div>

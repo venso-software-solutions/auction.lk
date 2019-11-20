@@ -603,7 +603,8 @@
 
 .container--1jsvu:hover,.new-dev-container--1GQJP:hover,.normal--2QYVk:hover,.top-ads-container--1Jeoq:hover {
     box-shadow: 0 0 8px 0 #d4ded9;
-    border-radius: 4px
+    border-radius: 4px;
+    background-color:ivory;
 }
 
 .list--3NxGO {
