@@ -28,6 +28,48 @@
 
         <header class="header">
 
+            <div class="top_bar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col d-flex flex-row">
+                            <!-- <div class="top_bar_contact_item">
+                                <div class="top_bar_icon"><img src="images/phone.png" alt=""></div>+38 068 005 3570
+                            </div>
+                            <div class="top_bar_contact_item">
+                                <div class="top_bar_icon"><img src="images/mail.png" alt=""></div><a href="mailto:fastsales@gmail.com">fastsales@gmail.com</a>
+                            </div> -->
+                            <div class="top_bar_content ml-auto">
+                                <div class="top_bar_menu">
+                                    <ul class="standard_dropdown top_bar_dropdown">
+                                        <!-- <li>
+                                            <a href="#">English<i class="fas fa-chevron-down"></i></a>
+                                            <ul>
+                                                <li><a href="#">Italian</a></li>
+                                                <li><a href="#">Spanish</a></li>
+                                                <li><a href="#">Japanese</a></li>
+                                            </ul>
+                                        </li> -->
+                                        <!-- <li>
+                                            <a href="#">$ US dollar<i class="fas fa-chevron-down"></i></a>
+                                            <ul>
+                                                <li><a href="#">EUR Euro</a></li>
+                                                <li><a href="#">GBP British Pound</a></li>
+                                                <li><a href="#">JPY Japanese Yen</a></li>
+                                            </ul>
+                                        </li> -->
+                                    </ul>
+                                </div>
+                                <div class="top_bar_user">
+                                    <div class="user_icon"><img src="images/user.svg" alt=""></div>
+                                    <div><a href="{{url('signup')}}">Register</a></div>
+                                    <div><a href="{{url('login')}}">Sign in</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- Header Main -->
 
             <div class="header_main">
@@ -41,8 +83,9 @@
                             </div>
                         </div>
 
+
                         <!-- Search -->
-                        <div class="col-lg-9 col-12 order-lg-2 order-3 text-lg-left text-right">
+                        <div class="col-lg-5 col-12 order-lg-2 order-3 text-lg-left text-right">
                             <div class="header_search">
                                 <div class="header_search_content">
                                     <div class="header_search_form_container">
@@ -55,7 +98,19 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-lg-3 col-sm-3 col-xs-6 col-3 order-3">
+                            <div class="logo_container">
+                                <div class="logo"><button type="button" style="width: 200px;" class="btn btn-primary">Post Add</button></div>
+
+                            </div>
+                        </div>
+
+
+
+
+
                     </div>
+
                 </div>
             </div>
 
@@ -166,177 +221,251 @@
                 <div class="row">
 
                     <!-- Char. Item -->
-                <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
-                    <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
-                        <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
-                        <div class="char_content">
-                            <div class="char_title" style="align-items: center">Free Delivery</div>
+                    <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
+                        <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
+                            <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
+                            <div class="char_content">
+                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
-                    <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;z-index: ">
-                        <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
-                        <div class="char_content">
-                            <div class="char_title" style="align-items: center">Free Delivery</div>
+                    <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
+                        <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;z-index: ">
+                            <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
+                            <div class="char_content">
+                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
-                    <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
-                        <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
-                        <div class="char_content">
-                            <div class="char_title" style="align-items: center">Free Delivery</div>
+                    <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
+                        <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
+                            <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
+                            <div class="char_content">
+                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
-                    <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
-                        <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
-                        <div class="char_content">
-                            <div class="char_title" style="align-items: center">Free Delivery</div>
+                    <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
+                        <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
+                            <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
+                            <div class="char_content">
+                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
-                    <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
-                        <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
-                        <div class="char_content">
-                            <div class="char_title" style="align-items: center">Free Delivery</div>
+                    <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
+                        <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
+                            <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
+                            <div class="char_content">
+                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
-                    <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
-                        <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
-                        <div class="char_content">
-                            <div class="char_title" style="align-items: center">Free Delivery</div>
+                    <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
+                        <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
+                            <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
+                            <div class="char_content">
+                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
-                    <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
-                        <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
-                        <div class="char_content">
-                            <div class="char_title" style="align-items: center">Free Delivery</div>
+                    <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
+                        <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
+                            <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
+                            <div class="char_content">
+                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
-                    <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
-                        <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
-                        <div class="char_content">
-                            <div class="char_title" style="align-items: center">Free Delivery</div>
+                    <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
+                        <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
+                            <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
+                            <div class="char_content">
+                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
-                    <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
-                        <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
-                        <div class="char_content">
-                            <div class="char_title" style="align-items: center">Free Delivery</div>
+                    <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
+                        <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
+                            <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-left: 25%"></div>
+                            <div class="char_content">
+                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
-                    <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
-                        <div class="char_icon align-items-center"><img src="images/char_2.png" alt="" style="padding-left: 25%"></div>
-                        <div class="char_content">
-                            <div class="char_title" style="align-items: center">Free Delivery</div>
+                    <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
+                        <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
+                            <div class="char_icon align-items-center"><img src="images/char_2.png" alt="" style="padding-left: 25%"></div>
+                            <div class="char_content">
+                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
-                    <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
-                        <div class="char_icon align-items-center"><img src="images/char_3.png" alt="" style="padding-left: 25%"></div>
-                        <div class="char_content">
-                            <div class="char_title" style="align-items: center">Free Delivery</div>
+                    <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
+                        <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
+                            <div class="char_icon align-items-center"><img src="images/char_3.png" alt="" style="padding-left: 25%"></div>
+                            <div class="char_content">
+                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
-                    <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
-                        <div class="char_icon align-items-center"><img src="images/char_4.png" alt="" style="padding-left: 25%"></div>
-                        <div class="char_content">
-                            <div class="char_title" style="align-items: center">Free Delivery</div>
+                    <div class="col-lg-2 col-sm-3 col-xs-6 char_col" style="padding-bottom: 2%;">
+                        <div class="char_item align-items-center justify-content-start" style="padding-top:15%;padding-left: 20%;">
+                            <div class="char_icon align-items-center"><img src="images/char_4.png" alt="" style="padding-left: 25%"></div>
+                            <div class="char_content">
+                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                            </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
 
         <div class="container">
             <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="height: 170px;width: unset;">
-                <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
-                    <div class="container--2uFyv">
-                        <div class="image--2hizm">
-                            <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
-                        </div>
-                        <div class="content--3JNQz">
-                            <span class="title--3yncE">Nokia</span>
-                            <div>
-                                <div>
+                <div class="row">
+                    <div class="col-lg-2">
+                        <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
+                            <div class="container--2uFyv">
+                                <div class="image--2hizm">
+                                    <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
                                 </div>
-                                <div class="sub-title--1nbZO">
-                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
-                                </div>
-                                <div class="price--3SnqI color--t0tGX">
-                                    <span>Rs 1,750</span>
-                                </div>
-                            </div>
-                            <div class="updated-time--1DbCk">10 minutes</div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="height: 170px;width: unset;">
-                <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
-                    <div class="container--2uFyv">
-                        <div class="image--2hizm">
-                            <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
-                        </div>
-                        <div class="content--3JNQz">
-                            <span class="title--3yncE">Nokia</span>
-                            <div>
-                                <div>
-                                </div>
-                                <div class="sub-title--1nbZO">
-                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
-                                </div>
-                                <div class="price--3SnqI color--t0tGX">
-                                    <span>Rs 1,750</span>
-                                </div>
-                            </div>
-                            <div class="updated-time--1DbCk">10 minutes</div>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="height: 170px;width: unset;">
-                <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
-                    <div class="container--2uFyv">
-                        <div class="image--2hizm">
-                            <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
-                        </div>
-                        <div class="content--3JNQz">
-                            <span class="title--3yncE">Nokia</span>
-                            <div>
-                                <div>
-                                </div>
-                                <div class="sub-title--1nbZO">
-                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
-                                </div>
-                                <div class="price--3SnqI color--t0tGX">
-                                    <span>Rs 1,750</span>
-                                </div>
-                            </div>
-                            <div class="updated-time--1DbCk">10 minutes</div>
-                        </div>
-                    </div>
-                </a>
-            </li>
 
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content--3JNQz">
+                            <span class="title--3yncE">Nokia</span>
+                            <div>
+                                <div>
+                                </div>
+                                <div class="sub-title--1nbZO">
+                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
+                                </div>
+                                <div class="price--3SnqI color--t0tGX">
+                                    <span>Rs 1,750</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 advert_col">
+
+                        <!-- Advert Item -->
+
+                        <div class="advert d-flex flex-row align-items-center justify-content-start" style="height: 150px;">
+                            <div class="advert_content">
+                                <div class="advert_title">
+                                    <h3>Last bid amount : <span>Rs500</span></h3>
+                                </div>
+                                <p>Mimal Perera <br> Colombo</p>
+                                <button type="button" class="btn btn-primary">Bid now</button>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="height: 170px;width: unset;">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
+                            <div class="container--2uFyv">
+                                <div class="image--2hizm">
+                                    <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content--3JNQz">
+                            <span class="title--3yncE">Nokia</span>
+                            <div>
+                                <div>
+                                </div>
+                                <div class="sub-title--1nbZO">
+                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
+                                </div>
+                                <div class="price--3SnqI color--t0tGX">
+                                    <span>Rs 1,750</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 advert_col">
+
+                        <!-- Advert Item -->
+
+                        <div class="advert d-flex flex-row align-items-center justify-content-start" style="height: 150px;">
+                            <div class="advert_content">
+                                <div class="advert_title">
+                                    <h3>Last bid amount : <span>Rs500</span></h3>
+                                </div>
+                                <p>Mimal Perera <br> Colombo</p>
+                                <button type="button" class="btn btn-primary">Bid now</button>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="height: 170px;width: unset;">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <a class="card-link--3ssYv" href="/en/ad/nokia-asha-used-for-sale-kegalle" title="Nokia Asha (Used)">
+                            <div class="container--2uFyv">
+                                <div class="image--2hizm">
+                                    <img class="normal-ad--1TyjD" src="images/trends_1.jpg" alt="Nokia Asha (Used)" style="    height: 150px;width: 150px;">
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content--3JNQz">
+                            <span class="title--3yncE">Nokia</span>
+                            <div>
+                                <div>
+                                </div>
+                                <div class="sub-title--1nbZO">
+                                    <div class="description--2-ez3">Kegalle, Mobile Phones</div>
+                                </div>
+                                <div class="price--3SnqI color--t0tGX">
+                                    <span>Rs 1,750</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 advert_col">
+
+                        <!-- Advert Item -->
+
+                        <div class="advert d-flex flex-row align-items-center justify-content-start" style="height: 150px;">
+                            <div class="advert_content">
+                                <div class="advert_title">
+                                    <h3>Last bid amount : <span>Rs500</span></h3>
+                                </div>
+                                <p>Mimal Perera <br> Colombo</p>
+                                <button type="button" class="btn btn-primary">Bid now</button>
+
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </li>
 
         </div>
 
@@ -347,98 +476,127 @@
                 <div class="row">
                     <div class="col-lg-3">
                         <div class="popular_categories_content">
-                            <div class="popular_categories_title">Popular Categories</div>
+                            <div class="popular_categories_title">Popular Items</div>
                             <div class="popular_categories_slider_nav">
                                 <div class="popular_categories_prev popular_categories_nav"><i class="fas fa-angle-left ml-auto"></i></div>
-                                <div class="popular_categories_next popular_categories_nav"><i class="fas fa-angle-right ml-auto"></i></div>
-                                <div class="popular_categories_link"><a href="#">full catalog</a></div>
+                                <div class="popular_categories_next popular_categories_nav"><i class="fas fa-angle-right "></i></div>
                             </div>
                         </div>
                     </div>
 
+
                     <!-- Popular Categories Slider -->
+                    <div class="col-lg-2">
+                        <div class="product_grid">
+                            <div class="product_grid_border"></div>
 
-                    <div class="col-lg-9">
-                        <div class="popular_categories_slider_container">
-                            <div class="owl-carousel owl-theme popular_categories_slider">
-
-                                <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_1.png" alt=""></div>
-                                        <div class="popular_category_text">Smartphones & Tablets</div>
+                            <div>
+                                <div class="product_item is_new">
+                                    <div class="product_border"></div>
+                                    <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/new_5.jpg" alt=""></div>
+                                    <div class="product_content">
+                                        <div class="product_price">$225</div>
+                                        <div class="product_name">
+                                            <div><a href="#" tabindex="0">Philips BT6900A</a></div>
+                                        </div>
                                     </div>
+                                    <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                    <ul class="product_marks">
+                                        <li class="product_mark product_discount">-25%</li>
+                                        <li class="product_mark product_new">new</li>
+                                    </ul>
                                 </div>
-
-                                <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_2.png" alt=""></div>
-                                        <div class="popular_category_text">Smartphones & Tablets</div>
-                                    </div>
-                                </div>
-
-                                <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_3.png" alt=""></div>
-                                        <div class="popular_category_text">Smartphones & Tablets</div>
-                                    </div>
-                                </div>
-
-                                <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_4.png" alt=""></div>
-                                        <div class="popular_category_text">Smartphones & Tablets</div>
-                                    </div>
-                                </div>
-
-                                <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
-                                        <div class="popular_category_text">Smartphones & Tablets</div>
-                                    </div>
-                                </div>
-
-                                <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
-                                        <div class="popular_category_text">Smartphones & Tablets</div>
-                                    </div>
-                                </div>
-
-                                <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
-                                        <div class="popular_category_text">Smartphones & Tablets</div>
-                                    </div>
-                                </div>
-
-                            <!-- Popular Categories Item -->
-                                <div class="owl-item">
-                                    <div class="popular_category d-flex flex-column align-items-center justify-content-center">
-                                        <div class="popular_category_image"><img src="images/popular_5.png" alt=""></div>
-                                        <div class="popular_category_text">Smartphones & Tablets</div>
-                                    </div>
-                                </div>
-
-
                             </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="product_grid">
+                            <div class="product_grid_border"></div>
+
+                            <div>
+                                <div class="product_item is_new">
+                                    <div class="product_border"></div>
+                                    <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/new_5.jpg" alt=""></div>
+                                    <div class="product_content">
+                                        <div class="product_price">$225</div>
+                                        <div class="product_name">
+                                            <div><a href="#" tabindex="0">Philips BT6900A</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                    <ul class="product_marks">
+                                        <li class="product_mark product_discount">-25%</li>
+                                        <li class="product_mark product_new">new</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="product_grid">
+                            <div class="product_grid_border"></div>
+
+                            <div>
+                                <div class="product_item is_new">
+                                    <div class="product_border"></div>
+                                    <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/new_5.jpg" alt=""></div>
+                                    <div class="product_content">
+                                        <div class="product_price">$225</div>
+                                        <div class="product_name">
+                                            <div><a href="#" tabindex="0">Philips BT6900A</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                    <ul class="product_marks">
+                                        <li class="product_mark product_discount">-25%</li>
+                                        <li class="product_mark product_new">new</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="product_grid">
+                            <div class="product_grid_border"></div>
+
+                            <div>
+                                <div class="product_item is_new">
+                                    <div class="product_border"></div>
+                                    <div class="product_image d-flex flex-column align-items-center justify-content-center"><img src="images/new_5.jpg" alt=""></div>
+                                    <div class="product_content">
+                                        <div class="product_price">$225</div>
+                                        <div class="product_name">
+                                            <div><a href="#" tabindex="0">Philips BT6900A</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="product_fav"><i class="fas fa-heart"></i></div>
+                                    <ul class="product_marks">
+                                        <li class="product_mark product_discount">-25%</li>
+                                        <li class="product_mark product_new">new</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
 
+    </div>
 
-        <!-- Trends -->
 
-        {{-- <div class="trends">
+    <!-- Trends -->
+
+    {{-- <div class="trends">
             <div class="trends_background" style="background-image:url(images/trends_background.jpg)"></div>
             <div class="trends_overlay"></div>
             <div class="container">
@@ -588,8 +746,8 @@
             </div>
         </div> --}}
 
-        <!-- Recently Viewed -->
-{{--
+    <!-- Recently Viewed -->
+    {{--
         <div class="viewed">
             <div class="container">
                 <div class="row">
@@ -1823,6 +1981,24 @@
             </div>
         </div> --}}
 
-        <!-- Footer -->
+    <!-- Footer -->
 
-@include('footer')
+    @include('footer')
+
+
+    <script src="{{ URL :: asset('js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{URL :: asset('styles/bootstrap4/popper.js')}}"></script>
+    <script src="{{URL :: asset('styles/bootstrap4/bootstrap.min.js')}}"></script>
+    <script src="{{URL :: asset('plugins/greensock/TweenMax.min.js')}}"></script>
+    <script src="{{URL :: asset('plugins/greensock/TimelineMax.min.js')}}"></script>
+    <script src="{{URL :: asset('plugins/scrollmagic/ScrollMagic.min.js')}}"></script>
+    <script src="{{URL :: asset('plugins/greensock/animation.gsap.min.js')}}"></script>
+    <script src="{{URL :: asset('plugins/greensock/ScrollToPlugin.min.js')}}"></script>
+    <script src="{{URL :: asset('plugins/OwlCarousel2-2.2.1/owl.carousel.js')}}"></script>
+    <script src="{{URL :: asset('plugins/slick-1.8.0/slick.js')}}"></script>
+    <script src="{{URL :: asset('plugins/easing/easing.js')}}"></script>
+    <script src="{{URL :: asset('js/custom.js')}}"></script>
+
+</body>
+
+</html>
