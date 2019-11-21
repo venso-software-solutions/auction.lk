@@ -5,11 +5,11 @@
 
         <!-- Footer -->
 
-        <footer class="footer">
+        <footer class="footer" style="background-color:  #e2eeff">
             <div class="container">
-                <div class="row">
+                <div class="row" style="align-items: flex-start;z-index: 50;">
 
-                    <div class="col-lg-4 col-md-4 footer_col">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 footer_col">
                         <div class="footer_column footer_contact">
                             <div class="logo_container">
                                 <div class="logo"><a href="#">Auction.lk</a></div>
@@ -32,9 +32,9 @@
                         </div>
                     </div>
 
-                
 
-                    <div class="col-lg-4 col-md-4 footer_col">
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 footer_col">
                         <!-- <div class="footer_column"> -->
                         <!-- <div class="footer_title">Login from </div> -->
                             <ul class="footer_list ">
@@ -48,12 +48,12 @@
                                 <div class="footer_col">
                                 <li><a href="#">another</a></li>
                                 </div>
-                                
+
                             </ul>
                         <!-- </div> -->
                     </div>
 
-                    <div class="col-lg-4 col-md-4  ">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6" >
                         <div class="footer_column">
                             <div class="footer_title">About us</div>
                             <ul class="footer_list">
@@ -61,11 +61,11 @@
                                 <li><a href="#">terms of conditions</a></li>
                                 <li><a href="#">site map</a></li>
                             </ul>
-                            
+
                         </div>
                     </div>
 
-                    
+
 
                 </div>
             </div>

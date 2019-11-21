@@ -1,9 +1,9 @@
-<header class="header">
+<header class="header" style="position: fixed;background-color: #e2eeff">
             <!-- Header Main -->
 
             <div class="header_main">
                 <div class="container" style="width:unset;max-width:80%;">
-                    <div class="row" style="height:80px;">
+                    <div class="row" style="height:120px;">
 
                         <!-- Logo -->
                         <div class="col-lg-3 col-sm-3 col-xs-6 col-3 order-1">
@@ -19,7 +19,7 @@
                                 <div class="header_search_content">
                                     <div class="header_search_form_container">
                                         <form action="#" class="header_search_form clearfix">
-                                            <input type="search" required="required" class="header_search_input" placeholder="Search for products...">
+                                            <input type="search" required="required" class="header_search_input" style="width: 100%;" placeholder="Search for products...">
 
                                             <button type="submit" class="header_search_button trans_300" value="Submit"><img src="images/search.png" alt=""></button>
                                         </form>

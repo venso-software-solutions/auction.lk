@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/main_styles.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/responsive.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/home.css')}}">
-    {<link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/serp-4b31d6.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/serp-4b31d6.css')}}">
 
 </head>
 
