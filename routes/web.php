@@ -27,3 +27,12 @@ Route::get('/signup', function () {
 Route::get('/phone', function () {
     return view('phone');
 });
+
+Route::get('/areaAgent', function () {
+    return view('areaAgent');
+});
+
+Route::get('/pamal', function () {
+    return view('pamal');
+});
+
