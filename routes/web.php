@@ -43,4 +43,6 @@ Route::get('/membershipAgent', function () {
     return view('pamal');
 });
 
-
+Route::get('/buynow', function () {
+    return view('buynow');
+});

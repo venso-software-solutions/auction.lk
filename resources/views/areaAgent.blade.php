@@ -56,7 +56,7 @@
     <div class="container" style="width: 100%;padding: 5%;padding-top:10%">
             <div class="row">
                 <div class="col-sm-4 col-12" >
-                    <div class="packagecard">
+                    <div class="packagecard card">
                     <div class="containerx">
                         <div class="char_title" style="align-items: center">Journier Executive</div>
                         <div class="footer_phone">50 ads limit per month</div>
@@ -76,7 +76,7 @@
                 </div>
 
                 <div class="col-sm-4 col-12"  >
-                    <div class="packagecard">
+                    <div class="packagecard ">
                     <div class="char_title" style="align-items: center" >Executive</div>
                     <div class="footer_phone">100 ads limit per month</div>
                     <div style="text-align: justify">you have access to post 100 ads per month.one ad cost is 300/= .you can earn 30,000/=  per month</div>
