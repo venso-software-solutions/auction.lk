@@ -19,11 +19,12 @@
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/serp-4b31d6.css')}}">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
 
-    @include('header')
+
 
 </head>
 
 <body>
+     @include('header')
     <div class="characteristics">
         <div class="container">
            <div class="row">
@@ -58,7 +59,7 @@
                <div style="margin:20px"><a class="waves-effect waves-light btn-large" style="width:200px;background-color:orange; ">Get Start</a></div>
 
                </div>
-                
+
                <div class="col-md-4" style="text-align: center">
                <div class="char_title" style="align-items: center">Gold</div>
                <div class="footer_phone" style="align-align: justify">200 offer access per month</div>
@@ -75,21 +76,21 @@
 
                </div>
 
-               
-               
-               
+
+
+
 
             </div>
-               
-               
+
+
            </div>
-         
+
         </div>
-        
+
     </div>
 
-    
-  
+
+
     @include('footer')
 
     <script src="{{ URL :: asset('js/jquery-3.3.1.min.js')}}"></script>
@@ -106,7 +107,7 @@
     <script src="{{URL :: asset('js/custom.js')}}"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
 
-  
+
 
 </body>
 

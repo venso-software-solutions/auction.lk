@@ -24,8 +24,8 @@ Route::get('/login', function () {
 Route::get('/signup', function () {
     return view('signup');
 });
-Route::get('/phone', function () {
-    return view('phone');
+Route::get('/item1', function () {
+    return view('item1');
 });
 
 Route::get('/areaAgent', function () {
@@ -43,4 +43,6 @@ Route::get('/membershipAgent', function () {
     return view('pamal');
 });
 
-
+Route::get('/buynow', function () {
+    return view('buynow');
+});
