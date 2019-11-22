@@ -62,6 +62,7 @@
 
 
     <div class="container" style="width: 100%;padding: 5%;padding-top:10%">
+
             
             <div class="row">
                 <div class="col-sm-4 col-12" >
@@ -99,6 +100,8 @@
                             <div class="cardtext" style="text-align: justify">ones you post your client ad .cliant will  recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
                             <div><a ><button type="button" class="btn btn-outline-warning" style="margin:20px;">Get Started</button></a></div>
                         </div>
+
+
                     </div>
                 </div>
 
@@ -121,6 +124,7 @@
                     </div>
                 </div>
             </div>
+
         <div class="col-12">
             <!-- Default form contact -->
             <div class="card">
