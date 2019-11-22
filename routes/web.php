@@ -27,7 +27,42 @@ Route::get('/signup', function () {
 Route::get('/item1', function () {
     return view('item1');
 });
-
+Route::get('/item2', function () {
+    return view('item2');
+});
+Route::get('/item3', function () {
+    return view('item3');
+});
+Route::get('/item4', function () {
+    return view('item4');
+});
+Route::get('/item5', function () {
+    return view('item5');
+});
+Route::get('/item6', function () {
+    return view('item6');
+});
+Route::get('/item7', function () {
+    return view('item7');
+});
+Route::get('/item8', function () {
+    return view('item8');
+});
+Route::get('/item9', function () {
+    return view('item9');
+});
+Route::get('/item10', function () {
+    return view('item10');
+});
+Route::get('/item11', function () {
+    return view('item11');
+});
+Route::get('/item12', function () {
+    return view('item12');
+});
+Route::get('/product', function () {
+    return view('product');
+});
 Route::get('/areaAgent', function () {
     return view('areaAgent');
 });

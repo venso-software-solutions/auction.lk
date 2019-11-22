@@ -5731,7 +5731,12 @@ body.has-campaign .container.main {
         height: 100px;
         width: 100px;
     }
-
+    .breadcrumbx{
+        padding-top: 12%;
+    }
+    .productimg{
+        height: 350px;
+    }
     body,
     h1,
     h2,
@@ -5769,6 +5774,15 @@ body.has-campaign .container.main {
         margin: unset;
         max-width: 100%;
     }
+    .breadcrumbx {
+        padding-top: 12%;
+    }
+    .productimg {
+        height: 350px;
+    }
+    .containerx{
+        padding-top: 10%;
+    }
     .normal--2QYVk {
         height: unset;
     }
@@ -5783,7 +5797,12 @@ body.has-campaign .container.main {
         height: 120px;
         width: 120px;
     }
-
+    .breadcrumbx {
+        padding-top: 12%;
+    }
+    .productimg {
+        height: 350px;
+    }
     .container {
         max-width: 90%;
         margin-right: auto;
@@ -5815,7 +5834,12 @@ body.has-campaign .container.main {
         height: 150px;
         width: 150px;
     }
-
+    .breadcrumbx {
+        padding-top: 12%;
+    }
+    .productimg {
+        height: 400px;
+    }
     .container {
         max-width: 80%;
         margin-right: auto;
@@ -5833,6 +5857,12 @@ body.has-campaign .container.main {
         max-width: 80%;
         margin-right: auto;
         margin-left: auto;
+    }
+    .breadcrumbx {
+        padding-top: 8%;
+    }
+    .productimg {
+        height: 400px;
     }
     .normal--2QYVk {
         height: 168px;

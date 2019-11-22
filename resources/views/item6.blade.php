@@ -39,13 +39,13 @@
             </span>All Sri Lanka
             <span style="font-size: 24px; color: white;padding-left: 4%;">
                 <i class="fas fa-tag"></i>
-            </span>Item1
+            </span>Item 6
         </p>
 
             </div>
         </div>
         <div class="row" style="padding-top: 2%;padding-bottom: 2%; margin: unset;">
-            <div class="col-sm-2 col-12 lg-col-2--YDkH9" style="border-right: 2px solid #e7edee;">
+            <div class="col-sm-2 col-xs-12 lg-col-2--YDkH9" style="border-right: 2px solid #e7edee;">
                 <ul>
                     <li>
                         <div style="background-color: darkblue;color: #e7edee;font-weight: bold;padding: 1%;margin-bottom: 2%;">
@@ -291,7 +291,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-8 col-12" style="padding-left: 3%;">
+            <div class="col-sm-8 col-xs-12" style="padding-left: 3%;">
                 <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="width: unset;">
                     <div class="row">
 
