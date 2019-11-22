@@ -62,8 +62,15 @@
 
 
     <div class="container" style="width: 100%;padding: 5%;padding-top:10%">
+        <div class="row" style="height: 200px;padding-bottom: 2%">
+            <div class="col-12" style="background-image: url(images/trends_2.jpg)"></div>
+        </div>
+        <div class="row" style="height: 10%;padding-bottom: 2%">
+            <div class="col-12" >
+            <p>hi xxx</p>
+            </div>
+        </div>
 
-            
             <div class="row">
                 <div class="col-sm-4 col-12" >
                     <div class="packagecard">
