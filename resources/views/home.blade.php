@@ -13,76 +13,94 @@
 
                     <!-- Char. Item -->
                     <div class="col-lg-2 col-md-3 col-sm-4 col-3  char_col" style="padding-bottom: 2%;display: flexbox;">
+                    <a href="{{ url('item1') }}">
                         <div class="char_item align-items-center justify-content-start">
                             <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-top:35%;padding-left: 20%;"></div>
                             <div class="char_content">
-                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                                <div class="char_title" style="align-items: center">Item 1</div>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-3  char_col" style="padding-bottom: 2%;display: flexbox;">
+                    <a href="{{ url('item2') }}">
                         <div class="char_item align-items-center justify-content-start">
                             <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-top:35%;padding-left: 20%;"></div>
                             <div class="char_content">
-                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                                <div class="char_title" style="align-items: center">Item 2</div>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-3  char_col" style="padding-bottom: 2%;display: flexbox;">
+                    <a href="{{ url('item3') }}">
                         <div class="char_item align-items-center justify-content-start">
                             <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-top:35%;padding-left: 20%;"></div>
                             <div class="char_content">
-                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                                <div class="char_title" style="align-items: center">Item 3</div>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-3  char_col" style="padding-bottom: 2%;display: flexbox;">
+                    <a href="{{ url('item4') }}">
                         <div class="char_item align-items-center justify-content-start">
                             <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-top:35%;padding-left: 20%;"></div>
                             <div class="char_content">
-                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                                <div class="char_title" style="align-items: center">Item 4</div>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-3  char_col" style="padding-bottom: 2%;display: flexbox;">
+                    <a href="{{ url('item5') }}">
                         <div class="char_item align-items-center justify-content-start">
                             <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-top:35%;padding-left: 20%;"></div>
                             <div class="char_content">
-                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                                <div class="char_title" style="align-items: center">Item 5</div>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-3 char_col" style="padding-bottom: 2%;display: flexbox;">
+                    <a href="{{ url('item6') }}">
                         <div class="char_item align-items-center justify-content-start">
                             <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-top:35%;padding-left: 20%;"></div>
                             <div class="char_content">
-                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                                <div class="char_title" style="align-items: center">Item 6</div>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-3  char_col" style="padding-bottom: 2%;display: flexbox;">
+                    <a href="{{ url('item7') }}">
                         <div class="char_item align-items-center justify-content-start">
                             <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-top:35%;padding-left: 20%;"></div>
                             <div class="char_content">
-                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                                <div class="char_title" style="align-items: center">Item 7</div>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-3  char_col" style="padding-bottom: 2%;display: flexbox;">
+                    <a href="{{ url('item8') }}">
                         <div class="char_item align-items-center justify-content-start">
                             <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-top:35%;padding-left: 20%;"></div>
                             <div class="char_content">
-                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                                <div class="char_title" style="align-items: center">Item 8</div>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-3  char_col" style="padding-bottom: 2%;display: flexbox;">
+                    <a href="{{ url('item9') }}">
                         <div class="char_item align-items-center justify-content-start">
                             <div class="char_icon align-items-center"><img src="images/char_1.png" alt="" style="padding-top:35%;padding-left: 20%;"></div>
                             <div class="char_content">
-                                <div class="char_title" style="align-items: center">Free Delivery</div>
+                                <div class="char_title" style="align-items: center">Item 9</div>
                             </div>
                         </div>
+                    </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-4 col-3  char_col" style="padding-bottom: 2%;display: flexbox;">
                         <div class="char_item align-items-center justify-content-start">
@@ -123,8 +141,7 @@
         <div class="col-sm-10 col-xs-12" style="padding-left: 3%;">
 
         </div>
-        <div class="col-sm-2 d-none d-sm-block" style="background-color: black;max-height: 550px;height: 550px;position: sticky;top: 100px;padding-top: 2%;
-        background-image: url(images/trends_2.jpg)">
+        <div class="col-sm-2 d-none d-sm-block" style="background-color: black;max-height: 550px;height: 550px;position: sticky;top: 100px;padding-top: 2%;">
 
         </div>
 

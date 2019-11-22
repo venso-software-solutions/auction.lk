@@ -32,11 +32,14 @@
     @include('header')
     <div class="container" style="width: 100%;padding: unset;padding-top: 2%">
         <div class="row" style="padding-top: 8%;margin-left:2%;margin-right: 2%; ">
-            <div class="col-12" style="background-color: blue;color: lavender;font-size: 24px;font-weight: bold">
-        <p>
+            <div class="col-12" style="background-color: blue;font-size: 24px;font-weight: bold">
+        <p style="color: lavender;font-weight: bold;font-size: 24px">
             <span style="font-size: 24px; color: white;">
+                <i class="fas fa-Location"></i>
+            </span>All Sri Lanka
+            <span style="font-size: 24px; color: white;padding-left: 4%;">
                 <i class="fas fa-tag"></i>
-            </span>
+            </span>Item1
         </p>
 
             </div>
@@ -321,13 +324,13 @@
                             </a>
                         </div>
                         <div class="col-4 advert_col">
-<a href="{{ url('porduct') }}">
+
                                 <div class="advert_title">
                                     <h3>Last bid amount : <span>Rs500</span></h3>
                                 </div>
                                 <p>Mimal Perera <br> Colombo<br>2019/11/21 9.30pm</p>
                                 <button type="button" class="btn btn-primary">Bid now</button>
-</a>
+
                         </div>
                     </a>
                     </div>
@@ -350,7 +353,7 @@
                 </div>
             </div>
             <div class="col-sm-2 d-none d-sm-block" style="background-color: black;max-height: 550px;height: 550px;position: sticky;top: 100px;padding-top: 2%;
-            background-image: url(images/trends_2.jpg)">
+            ">
 
             </div>
 
