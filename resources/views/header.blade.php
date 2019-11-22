@@ -1,4 +1,4 @@
-<header class="header" style="position: fixed;background-color: #e2eeff">
+<header class="header" style="position: fixed;background-color: #e2eeff;z-index:120 ">
             <!-- Header Main -->
 
             <div class="header_main">
