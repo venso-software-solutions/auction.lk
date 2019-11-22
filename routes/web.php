@@ -81,3 +81,15 @@ Route::get('/membershipAgent', function () {
 Route::get('/buynow', function () {
     return view('buynow');
 });
+Route::get('/promoteAdd', function () {
+    return view('promoteAdd');
+});
+Route::get('/areaAgentForm', function () {
+    return view('areaAgentForm');
+});
+Route::get('/leasingAgentForm', function () {
+    return view('leasingAgentForm');
+});
+Route::get('/insuranceAgentForm', function () {
+    return view('insuranceAgentForm');
+});
