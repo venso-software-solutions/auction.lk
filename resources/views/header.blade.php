@@ -6,7 +6,7 @@
                     <div class="row" style="height:120px;">
 
                         <!-- Logo -->
-                        <div class="col-lg-3 col-sm-3 col-xs-6 col-3 order-1">
+                        <div class="col-lg-3 col-sm-3 col-3 order-1">
                             <div class="logo_container">
                                 <div class="logo"><a href="#">Auction.lk</a></div>
                             </div>
@@ -14,7 +14,7 @@
 
 
                         <!-- Search -->
-                        <div class="col-lg-5 col-12 order-lg-2 order-3 text-lg-left text-right">
+                        <div class="col-sm-5 order-sm-2 order-3 text-lg-left text-right">
                             <div class="header_search">
                                 <div class="header_search_content">
                                     <div class="header_search_form_container">
@@ -27,7 +27,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-12 order-lg-2 order-3 text-lg-left text-right">
+                        <div class="col-sm-4  order-sm-2 order-3 text-lg-left text-right">
                             <div class="logo_container" style="padding-left: 50%;">
                                 <div class="logo"><button type="button" style="width: 200px;align-items: flex-end;" class="btn btn-primary">Post Add</button></div>
 
