@@ -32,18 +32,23 @@
     }
     .containerx{
         padding:unset;
-        padding: 5%;
+        /* padding: 5%; */
 
 
     }
     .containerx{
         padding:unset;
-        padding: 5%;
+        /* padding: 5%; */
 
     }
     .col-sm-4 .col-12{
         padding-right: 15px;
         padding-left: 15px;
+    }
+    .cardtext{
+        text-align:justify;
+        padding:10px;
+        font-weight:400;
     }
     </style>
 
@@ -52,25 +57,72 @@
 <body>
 @include('header')
 
+<div class="container-fluid" style="padding-top: 10%;">
+    <div class="row">
+     
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img  src="" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
+            </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+        </div>
+    </div>
 
-    <div class="container" style="width: 100%;padding: 5%;padding-top:10%">
+</div>
+
+
+    <div class="container" style="width: 100%;padding: 5%;">
             <div class="row">
                 <div class="col-sm-4 col-12" >
                     <div class="packagecard">
-                    <div class="containerx">
-                        <div class="char_title" style="align-items: center">Journier Executive</div>
-                        <div class="footer_phone">50 ads limit per month</div>
-                        <div style="text-align: justify">you have access to post 50 ads per month.one ad cost is 300/= .you can earn 15,000/=  per month</div>
+                    <div class="containerx card">
+                        <div class="char_title" style="align-items: center; background-color:gold;padding :5px">Journier Executive</div>
+                        <div class="footer_phone">100 ads limit per month</div>
+                        <div class="cardtext" style="text-align: justify">you have access to post 50 ads per month.one ad cost is 300/= .you can earn 15,000/=  per month</div>
                         <div class="footer_phone">10 topup ads access</div>
-                        <div style="text-align: justify">you have access to post 10 ads per month.one ad cost is 500/= .you can earn 5000/=  per month</div>
+                        <div class="cardtext" style="text-align: justify">you have access to post 10 ads per month.one ad cost is 500/= .you can earn 5000/=  per month</div>
                         <div class="footer_phone">referal earning access</div>
-                        <div style="text-align: justify">you have accesss refer this packages to the your frind .if someone buy under your promo cord we will pay you 50% commintion per sale</div>
+                        <div class="cardtext" style="text-align: justify">you have accesss refer this packages to the your frind .if someone buy under your promo cord we will pay you 50% commintion per sale</div>
                         <div class="footer_phone">verify agent certificate</div>
-                        <div style="text-align: justify">ones you joined as a aria agent .we will send cetificate of verified agent .this cetificate help you to build trust with your client </div>
+                        <div class="cardtext" style="text-align: justify">ones you joined as a aria agent .we will send cetificate of verified agent .this cetificate help you to build trust with your client </div>
                         <div class="footer_phone">sms billing access</div>
-                        <div style="text-align: justify">ones you post your client ad .cliant will  recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
-                        <div style="margin:20px"><a class="waves-effect waves-light btn-large" style="width:200px;background-color:orange; ">Get Start</a></div>
+                        <div class="cardtext" style="text-align: justify">ones you post your client ad .cliant will  recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
 
+                        <div><a class="btn btn-primary" style="margin :20px" href="#" role="button">Get Start</a></div>
                     </div>
                     </div>
                 </div>
