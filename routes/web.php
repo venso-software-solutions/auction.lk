@@ -32,7 +32,15 @@ Route::get('/areaAgent', function () {
     return view('areaAgent');
 });
 
-Route::get('/pamal', function () {
+Route::get('/insuranceAgent', function () {
+    return view('insuranceAgent');
+});
+
+Route::get('/leasingAgent', function () {
     return view('pamal');
 });
+Route::get('/membershipAgent', function () {
+    return view('pamal');
+});
+
 
