@@ -49,3 +49,12 @@ Route::get('/buynow', function () {
 Route::get('/promoteAdd', function () {
     return view('promoteAdd');
 });
+Route::get('/areaAgentForm', function () {
+    return view('areaAgentForm');
+});
+Route::get('/leasingAgentForm', function () {
+    return view('leasingAgentForm');
+});
+Route::get('/insuranceAgentForm', function () {
+    return view('insuranceAgentForm');
+});
