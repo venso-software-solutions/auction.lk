@@ -79,27 +79,28 @@
                         <div class="cardtext" style="text-align: justify">ones you post your client ad .cliant will  recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
 
                         <div><a class="btn btn-primary" style="margin :20px" href="#" role="button">Get Start</a></div>
-                      </div>
                     </div>
                 </div>
             </div>
 
 
-            <div class="col-sm-4 col-12">
-                <div class="packagecard ">
-                    <div class="char_title" style="align-items: center" >Executive</div>
-                    <div class="footer_phone">100 ads limit per month</div>
-                    <div style="text-align: justify">you have access to post 100 ads per month.one ad cost is 300/= .you can earn 30,000/= per month</div>
-                    <div class="footer_phone">20 topup ads access</div>
-                    <div style="text-align: justify">you have access to post 20 ads per month.one ad cost is 500/= .you can earn 10000/= per month</div>
-                    <div class="footer_phone">referal earning access</div>
-                    <div style="text-align: justify">you have accesss refer this packages to the your frind .if someone buy under your promo cord we will pay you 50% commintion per sale</div>
-                    <div class="footer_phone">verify agent certificate</div>
-                    <div style="text-align: justify">ones you joined as a aria agent .we will send cetificate of verified agent .this cetificate help you to build trust with your client </div>
-                    <div class="footer_phone">sms billing access</div>
-                    <div style="text-align: justify">ones you post your client ad .cliant will recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
-                    <div style="margin:20px"><a class="waves-effect waves-light btn-large" style="width:200px;background-color:orange; ">Get Start</a></div>
 
+            <div class="col-sm-4 col-12">
+                <div class="packagecard card">
+                    <div class="containerx">
+                        <div class="char_title" style="align-items: center" >Executive</div>
+                        <div class="footer_phone">100 ads limit per month</div>
+                        <div style="text-align: justify">you have access to post 100 ads per month.one ad cost is 300/= .you can earn 30,000/= per month</div>
+                        <div class="footer_phone">20 topup ads access</div>
+                        <div style="text-align: justify">you have access to post 20 ads per month.one ad cost is 500/= .you can earn 10000/= per month</div>
+                        <div class="footer_phone">referal earning access</div>
+                        <div style="text-align: justify">you have accesss refer this packages to the your frind .if someone buy under your promo cord we will pay you 50% commintion per sale</div>
+                        <div class="footer_phone">verify agent certificate</div>
+                        <div style="text-align: justify">ones you joined as a aria agent .we will send cetificate of verified agent .this cetificate help you to build trust with your client </div>
+                        <div class="footer_phone">sms billing access</div>
+                        <div style="text-align: justify">ones you post your client ad .cliant will recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
+                        <div style="margin:20px"><a class="waves-effect waves-light btn-large" style="width:200px;background-color:orange; ">Get Start</a></div>
+                    </div>
                 </div>
             </div>
 
@@ -121,12 +122,6 @@
 
                 </div>
             </div>
-
-
-
-
-
-
 
         </div>
 
