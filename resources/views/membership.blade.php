@@ -72,7 +72,7 @@
         </div>
         <div class="row" style="height: 10%;padding-bottom: 2%">
             <div class="col-12" style="background-color:black">
-                <p >area xxx</p>
+                <p >membership xxx</p>
             </div>
             
         </div>
