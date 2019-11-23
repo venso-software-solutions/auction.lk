@@ -63,10 +63,15 @@
 
     <div class="container" style="width: 100%;padding: 5%;padding-top:10%">
         <div class="row" style="height: 200px;padding-bottom: 2%">
-            <div class="col-12" style="background-image: url(images/trends_2.jpg)"></div>
+            <div class="col-12" style="background-color:black "></div>
         </div>
         <div class="row" style="height: 10%;padding-bottom: 2%">
-            <div class="col-12" >
+            <div class="col-12" style="background-color:black">
+            <p>hi xxx</p>
+            </div>
+        </div>
+        <div class="row" style="height: 10%;padding-bottom: 2%">
+            <div class="col-12" style="background-color:black" >
             <p>hi xxx</p>
             </div>
         </div>
@@ -75,7 +80,7 @@
                 <div class="col-sm-4 col-12" >
                     <div class="packagecard">
                         <div class="containerx card">
-                            <div class="char_title" style="align-items: center; background-color:gold;padding :5px">Journier Executive</div>
+                            <div class="char_title" style="align-items: center; background-color:#F9A825;padding :5px">Journier Executive</div>
                             <div class="footer_phone">50 ads limit per month</div>
                             <div class="cardtext" style="text-align: justify">you have access to post 50 ads per month.one ad cost is 300/= .you can earn 15,000/=  per month</div>
                             <div class="footer_phone">10 topup ads access</div>

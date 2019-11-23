@@ -61,6 +61,24 @@
 
 
     <div class="container" style="width: 100%;padding: 5%;padding-top:10%">
+        <div class="row" style="height: 200px;padding-bottom: 2%">
+                <div class="col-12" style="background-color:black  "></div> 
+            </div>
+            <div class="row" style="height: 10%;padding-bottom: 2%">
+                <div class="col-12" style="background-color:black">
+                <p>hi xxx</p>
+                </div>
+            </div>
+            <div class="row" style="height: 10%;padding-bottom: 2%">
+                <div class="col-12" style="background-color:black" >
+                <p>hi xxx</p>
+                </div>
+            </div>
+
+
+
+
+
             <div class="row">
                 <div class="col-sm-4 col-12" >
                     <div class="packagecard">

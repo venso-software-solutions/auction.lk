@@ -29,7 +29,7 @@
                         </div>
                         <div class="col-sm-4  order-sm-2 order-3 text-lg-left text-right">
                             <div class="logo_container" style="padding-left: 50%;">
-                                <div class="logo"><button type="button" style="width: 200px;align-items: flex-end;" class="btn btn-primary">Post Add</button></div>
+                                <div class="logo"><button type="button" style="width: 200px;align-items: flex-end;background-color:#F9A825; border:none" class="btn btn-primary">Post Add</button></div>
 
                             </div>
                         </div>
