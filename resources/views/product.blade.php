@@ -27,7 +27,26 @@
                 width:70%;
 
             }
+        }@media only screen and (min-width: 250px){
+            body {
+                font-size: 14px;
+            }
         }
+        @media only screen and (min-width: 250px){
+        body, h1, h2, h3, h4, h5, h6 {
+            font-weight: 400;
+        }}
+@media('min-width:750px'){
+h3{
+    font-size: 1.2858rem;
+}
+}
+@media('min-width:800px'){
+h3{
+    font-size: 1.2858rem;
+}
+}
+}
     </style>
 
 
@@ -37,33 +56,18 @@
 <body>
 
     @include('header')
-    <div class="container" style="width: 100%;padding: unset;padding-top: 2%">
-        <div class="row breadcrumbx" style="margin-left:2%;margin-right: 2%; ">
-            <div class="col-12" style="background-color: blue;font-size: 24px;font-weight: bold">
-                <p style="color: lavender;font-weight: bold;font-size: 18px">
-                    <span style="font-size: 24px; color: white;">
-                        <i class="fas fa-map-marker-alt"></i>
-                    </span>All Sri Lanka
-                    <span style="font-size: 24px; color: white;padding-left: 4%;">
-                        <i class="fas fa-tag"></i>
-                    </span>Item1
-                </p>
+    <div class="container breadcrumbx" style="width: 100%;padding: unset;padding-top: 12%;margin-left: 10%;margin-right: 10%;width: 80%">
 
-            </div>
-        </div>
-        <div>
-
-        </div>
-        <div class="row" style="padding-top: 2%;padding-bottom: 2%; height: 100%;">
+        <div class="row" style="padding-top: 2%;padding-bottom: 2%;">
             <div class="col-md-7 col-12 productimg" style="">
                 <div class="row" >
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-4"><h3 style="font-weight: bold">Product 1</h3></div>
-                            <div class="col-2"><h3 style="font-weight: bold">Colombo</h3></div>
-                            <div class="col-2"><h3 >4000LKR</h3></div>
-                            <div class="col-4"><h3 >Product 1</h3></div>
-                            <div class="container" style="background-color: black"></div>
+                            <div class="col-4" style="height: 30px;"><h3 style="font-weight: bold;">Product 1</h3></div>
+                            <div class="col-2" style="height: 30px;"><h3 >Colombo</h3></div>
+                            <div class="col-2" style="height: 30px;"><h3 >4000LKR</h3></div>
+                            <div class="col-4" style="height: 30px;"><h3 >0711234567</h3></div>
+                            <div class="col-12" style="background-color: black;height: 90%;margin: unset;width: 100%;"></div>
                         </div>
 
                     </div>
@@ -71,29 +75,95 @@
             </div>
             <div class="col-md-5 col-12"></div>
 
-        </div>
-        <div class="row" style="padding-top: 2%;padding-bottom: 2%; margin: unset;">
-            <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
-                <div class="containery" style="height: 200px;background-color: black;"></div>
             </div>
-            <div class="col-sm-4 col-6"  style="padding-bottom: 2%;">
-                <div class="containery" style="height: 200px;background-color: black;"></div>
+            <div class="col-md-7 col-12" style="height: 100px">
+
+                <div class="row" style="padding-top: 2%;padding-bottom: 2%;height: 100%">
+                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
+                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
+                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
+                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
+                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
+                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
+                </div>
             </div>
-            <div class="col-sm-4 col-6"  style="padding-bottom: 2%;">
-                <div class="containery" style="height: 200px;background-color: black;"></div>
-            </div>
-            <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
-                <div class="containery" style="height: 200px;background-color: black;"></div>
-            </div>
-            <div class="col-sm-4 col-6"  style="padding-bottom: 2%;">
-                <div class="containery" style="height: 200px;background-color: black;"></div>
-            </div>
-            <div class="col-sm-4 col-6"  style="padding-bottom: 2%;">
-                <div class="containery" style="height: 200px;background-color: black;"></div>
+            <div class="col-md-5 col-12"></div>
+
             </div>
 
         </div>
-        <div class="row" style="height: 150px;margin-bottom: 3%;">
+
+
+        <div class="row" style="padding-top: 2%;padding-bottom: 2%; margin-left: 15%;margin-right: 15%;">
+            <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
+                <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+                 border: solid 1px #e8e8e8;border-radius: 5%">
+                    <div class="row" style="margin: unset;">
+                        <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                        <div class="col-12">
+                            <p style="font-size: 20px;font-weight: bold">Product 1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
+                    <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+                    border: solid 1px #e8e8e8;border-radius: 5%">
+                        <div class="row" style="margin: unset;">
+                            <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                            <div class="col-12">
+                                <p style="font-size: 20px;font-weight: bold">Product 2</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
+                <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+                 border: solid 1px #e8e8e8;border-radius: 5%">
+                    <div class="row" style="margin: unset;">
+                        <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                        <div class="col-12">
+                            <p style="font-size: 20px;font-weight: bold">Product 3</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
+                    <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+                    border: solid 1px #e8e8e8;border-radius: 5%">
+                        <div class="row" style="margin: unset;">
+                            <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                            <div class="col-12">
+                                <p style="font-size: 20px;font-weight: bold">Product 4</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
+                <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+                 border: solid 1px #e8e8e8;border-radius: 5%">
+                    <div class="row" style="margin: unset;">
+                        <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                        <div class="col-12">
+                            <p style="font-size: 20px;font-weight: bold">Product 5</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
+                    <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+                    border: solid 1px #e8e8e8;border-radius: 5%">
+                        <div class="row" style="margin: unset;">
+                            <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                            <div class="col-12">
+                                <p style="font-size: 20px;font-weight: bold">Product 6</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+        </div>
+        <div class="row" style="height: 150px;margin-bottom: 3%;margin-left: 15%;margin-right: 15%;">
             <div class="col-12" style="background-color: black;"></div>
         </div>
     </div>

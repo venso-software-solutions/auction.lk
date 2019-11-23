@@ -15,10 +15,9 @@
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('plugins/slick-1.8.0/slick.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/main_styles.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/responsive.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/home.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/serp-4b31d6.css')}}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/home.css')}}">
     <style>
         .packagecard {
             box-shadow: 0px 3px 6px rgba(1, 1, 0, 0.1);
@@ -58,6 +57,11 @@
             padding: 10px;
             font-weight: 400;
         }
+        @media only screen and (min-width: 250px){
+        body {
+            font-size: 14px;
+        }
+        }
     </style>
 
 </head>
@@ -67,8 +71,8 @@
 
 
     <div class="container">
-        <div class="col-3"></div>
-        <div class="col-6" style="padding-top: 150px;padding-bottom: 150px;;">
+
+        <div class="" style="padding-top: 150px;padding-bottom: 150px;padding-left: 15%;padding-right: 15%;">
             <!-- Default form contact -->
             <div class="card">
                 <form class="text-center border border-light p-5" action="#!">
@@ -131,7 +135,7 @@
             </div>
 
         </div>
-        <div class="col-3"></div>
+
     </div>
 
 

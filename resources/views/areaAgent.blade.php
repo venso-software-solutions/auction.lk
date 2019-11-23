@@ -15,10 +15,9 @@
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('plugins/slick-1.8.0/slick.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/main_styles.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/responsive.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/home.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/serp-4b31d6.css')}}">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/home.css')}}">
     <style>
         .packagecard {
             box-shadow: 0px 3px 6px rgba(1, 1, 0, 0.1);
@@ -67,7 +66,7 @@
 
 
 
-    <div class="container" style="width: 100%;padding: 5%;padding-top:10%">
+    <div class="container breadcrumbx" style="width: 100%;padding: 5%;padding-top:12%">
         <div class="row" style="height: 200px;padding-bottom: 2%">
             <div class="col-12" style="background-image: url(images/trends_2.jpg)"></div>
         </div>

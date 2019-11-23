@@ -15,8 +15,8 @@
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('plugins/slick-1.8.0/slick.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/main_styles.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/responsive.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/home.css')}}">
     <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/serp-4b31d6.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{URL :: asset ('styles/home.css')}}">
 
     <style>
     .packagecard{
@@ -60,7 +60,7 @@
 
 
 
-    <div class="container" style="width: 100%;padding: 5%;padding-top:10%">
+    <div class="container breadcrumbx" style="width: 100%;padding: 5%;padding-top:10%">
             <div class="row">
                 <div class="col-sm-4 col-12" >
                     <div class="packagecard">
@@ -119,9 +119,9 @@
                     </div>
                 </div>
 
-          
 
-               
+
+
 
 
 
