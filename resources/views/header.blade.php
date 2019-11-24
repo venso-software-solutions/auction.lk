@@ -10,7 +10,7 @@
                         <!-- Logo -->
                         <div class="col-sm-3 col-3 ">
                             <div class="logo_container">
-                                <div class="logo"><a href="#" style="color:wheat">Auction.lk</a></div>
+                                <div class="logo"><a href="{{url('welcome')}}" style="color:wheat">Auction.lk</a></div>
                             </div>
                         </div>
 

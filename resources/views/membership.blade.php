@@ -84,21 +84,22 @@
         </div>
 
         <div class="row">
+
             <div class="col-sm-4 col-12">
                 <div class="packagecard">
                     <div class="containerx card">
-                        <div class="char_title" style="align-items: center; background-color:gold;padding :5px">Journier Executive</div>
-                        <div class="footer_phone">50 ads limit per month</div>
-                        <div class="cardtext" style="text-align: justify">you have access to post 50 ads per month.one ad cost is 300/= .you can earn 15,000/= per month</div>
-                        <div class="footer_phone">10 topup ads access</div>
-                        <div class="cardtext" style="text-align: justify">you have access to post 10 ads per month.one ad cost is 500/= .you can earn 5000/= per month</div>
-                        <div class="footer_phone">referal earning access</div>
-                        <div class="cardtext" style="text-align: justify">you have accesss refer this packages to the your frind .if someone buy under your promo cord we will pay you 50% commintion per sale</div>
-                        <div class="footer_phone">verify agent certificate</div>
-                        <div class="cardtext" style="text-align: justify">ones you joined as a aria agent .we will send cetificate of verified agent .this cetificate help you to build trust with your client </div>
+                        <div class="char_title" style="align-items: center; background-color:gold;padding :5px" data-toggle="tooltip" title="select your plan">Silver</div>
+                        <div class="footer_phone">50 adds per month</div>
+                        <div class="cardtext" style="text-align: justify">you can post 50 adds per month  </div>
+                        <div class="footer_phone">verified member badge </div>
+                        <div class="cardtext" style="text-align: justify">we will show verify member badge your your every prduct</div>
+                        <div class="footer_phone">5 top ads </div>
+                        <div class="cardtext" style="text-align: justify">you have access to post 5 top ads per month . </div>
+                        <div class="footer_phone">ecommerce acess </div>
+                        <div class="cardtext" style="text-align: justify">Buyer can buy your product by click buy now button  </div>
                         <div class="footer_phone">sms billing access</div>
-                        <div class="cardtext" style="text-align: justify">ones you post your client ad .cliant will recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
-                        <div><a><a class="btn btn-outline-warning" href="{{ url('areaAgentForm') }}" style="margin:20px;">Get Started</a></a></div>
+                        <div class="cardtext" style="text-align: justify">//ones you post your client ad .cliant will recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
+                        <div><a><a class="btn btn-outline-warning" href="{{ url('areaAgentForm') }}" style="margin:20px;" data-toggle="tooltip" title="1000/MONTH">Get Started</a></a></div>
                     </div>
                 </div>
             </div>
@@ -106,43 +107,42 @@
             <div class="col-sm-4 col-12">
                 <div class="packagecard">
                     <div class="containerx card">
-                        <div class="char_title" style="align-items: center; background-color:gold;padding :5px">Journier Executive</div>
-                        <div class="footer_phone">50 ads limit per month</div>
-                        <div class="cardtext" style="text-align: justify">you have access to post 50 ads per month.one ad cost is 300/= .you can earn 15,000/= per month</div>
-                        <div class="footer_phone">10 topup ads access</div>
-                        <div class="cardtext" style="text-align: justify">you have access to post 10 ads per month.one ad cost is 500/= .you can earn 5000/= per month</div>
-                        <div class="footer_phone">referal earning access</div>
-                        <div class="cardtext" style="text-align: justify">you have accesss refer this packages to the your frind .if someone buy under your promo cord we will pay you 50% commintion per sale</div>
-                        <div class="footer_phone">verify agent certificate</div>
-                        <div class="cardtext" style="text-align: justify">ones you joined as a aria agent .we will send cetificate of verified agent .this cetificate help you to build trust with your client </div>
+                        <div class="char_title" style="align-items: center; background-color:gold;padding :5px" data-toggle="tooltip" title="select your plan">Platinum</div>
+                        <div class="footer_phone">100 adds per month</div>
+                        <div class="cardtext" style="text-align: justify">you can post 100 adds per month  </div>
+                        <div class="footer_phone">verified member badge </div>
+                        <div class="cardtext" style="text-align: justify">we will show verify member badge your your every prduct</div>
+                        <div class="footer_phone">10 top ads </div>
+                        <div class="cardtext" style="text-align: justify">you have access to post 10 top ads per month . </div>
+                        <div class="footer_phone">ecommerce acess </div>
+                        <div class="cardtext" style="text-align: justify">Buyer can buy your product by click buy now button  </div>
                         <div class="footer_phone">sms billing access</div>
-                        <div class="cardtext" style="text-align: justify">ones you post your client ad .cliant will recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
-                        <div><a><a class="btn btn-outline-warning" href="{{ url('leasingAgentForm') }}" style="margin:20px;">Get Started</a></a></div>
+                        <div class="cardtext" style="text-align: justify">//ones you post your client ad .cliant will recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
+                        <div><a><a class="btn btn-outline-warning" href="{{ url('areaAgentForm') }}" style="margin:20px;" data-toggle="tooltip" title="2000/MONTH">Get Started</a></a></div>
                     </div>
-
-
                 </div>
             </div>
 
             <div class="col-sm-4 col-12">
                 <div class="packagecard">
                     <div class="containerx card">
-                        <div class="char_title" style="align-items: center; background-color:gold;padding :5px">Journier Executive</div>
-                        <div class="footer_phone">50 ads limit per month</div>
-                        <div class="cardtext" style="text-align: justify">you have access to post 50 ads per month.one ad cost is 300/= .you can earn 15,000/= per month</div>
-                        <div class="footer_phone">10 topup ads access</div>
-                        <div class="cardtext" style="text-align: justify">you have access to post 10 ads per month.one ad cost is 500/= .you can earn 5000/= per month</div>
-                        <div class="footer_phone">referal earning access</div>
-                        <div class="cardtext" style="text-align: justify">you have accesss refer this packages to the your frind .if someone buy under your promo cord we will pay you 50% commintion per sale</div>
-                        <div class="footer_phone">verify agent certificate</div>
-                        <div class="cardtext" style="text-align: justify">ones you joined as a aria agent .we will send cetificate of verified agent .this cetificate help you to build trust with your client </div>
+                        <div class="char_title" style="align-items: center; background-color:gold;padding :5px" data-toggle="tooltip" title="select your plan">Gold</div>
+                        <div class="footer_phone">unlimited adds per month</div>
+                        <div class="cardtext" style="text-align: justify">you can post unlimited free ads per month  </div>
+                        <div class="footer_phone">verified member badge </div>
+                        <div class="cardtext" style="text-align: justify">we will show verify member badge your your every prduct</div>
+                        <div class="footer_phone">40 top ads </div>
+                        <div class="cardtext" style="text-align: justify">you have access to post 40 top ads per month . </div>
+                        <div class="footer_phone">ecommerce acess </div>
+                        <div class="cardtext" style="text-align: justify">Buyer can buy your product by click buy now button  </div>
                         <div class="footer_phone">sms billing access</div>
-                        <div class="cardtext" style="text-align: justify">ones you post your client ad .cliant will recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
-                        <div><a><a class="btn btn-outline-warning" href="{{ url('insuranceAgentForm') }}" style="margin:20px;">Get Started</a></a></div>
+                        <div class="cardtext" style="text-align: justify">//ones you post your client ad .cliant will recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
+                        <div><a><a class="btn btn-outline-warning" href="{{ url('areaAgentForm') }}" style="margin:20px;" data-toggle="tooltip" title="3500/MONTH">Get Started</a></a></div>
                     </div>
                 </div>
             </div>
         </div>
+ 
 
 
     </div>
