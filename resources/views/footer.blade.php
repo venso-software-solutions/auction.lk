@@ -17,7 +17,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 footer_col">
                 <div class="footer_column footer_contact">
                     <div class="logo_container">
-                        <div class="logo"><a style="color:wheat" href="#">Auction.lk</a></div>
+                        <div class="logo"><a style="color:wheat" href="{{url('')}}">Auction.lk</a></div>
                     </div>
                     <div class="footer_title" style="color:wheat">Got Question? Call Us 24/7</div>
                     <div class="footer_phone" style="color:orange">+077 123456</div>
