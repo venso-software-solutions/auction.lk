@@ -1,4 +1,4 @@
-<header class="header" style="position: fixed;background-color: #e2eeff;z-index:120 ">
+<header class="header" style="position: fixed;background-color: #0D47A1;z-index:120 ">
             <!-- Header Main -->
 
             <div class="header_main">
@@ -8,7 +8,7 @@
                         <!-- Logo -->
                         <div class="col-sm-3 col-3 order-1">
                             <div class="logo_container">
-                                <div class="logo"><a href="#">Auction.lk</a></div>
+                                <div class="logo"><a href="#" style="color:wheat">Auction.lk</a></div>
                             </div>
                         </div>
 
@@ -21,7 +21,7 @@
                                         <form action="#" class="header_search_form clearfix">
                                             <input type="search" required="required" class="header_search_input" style="width: 100%;" placeholder="Search for products...">
 
-                                            <button type="submit" class="header_search_button trans_300" value="Submit"><img src="images/search.png" alt=""></button>
+                                            <button type="submit" class="header_search_button trans_300" style="background:orange" value="Submit"><img src="images/search.png" alt=""></button>
                                         </form>
                                     </div>
                                 </div>
@@ -29,7 +29,7 @@
                         </div>
                         <div class="col-sm-4   order-3 text-sm-left text-right">
                             <div class="logo_container" style="padding-left: 50%;">
-                                <div class="logo"><button type="button" style="width: 200px;align-items: flex-end;" class="btn btn-primary">Post Add</button></div>
+                                <div class="logo"><button type="button" style="width: 200px;align-items: flex-end;background-color:#F9A825; border:none" class="btn btn-primary">Post Add</button></div>
 
                             </div>
                         </div>

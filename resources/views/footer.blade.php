@@ -3,17 +3,24 @@
 
 <!-- Footer -->
 
-<footer class="footer" style="background-color:  #e2eeff">
+<style>
+    .footer-middle-text{
+        color:wheat;
+    }
+
+</style>
+
+<footer class="footer" style="background-color:  #0D47A1">
     <div class="container">
         <div class="row" style="align-items: flex-start;z-index: 50;">
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6 footer_col">
                 <div class="footer_column footer_contact">
                     <div class="logo_container">
-                        <div class="logo"><a href="#">Auction.lk</a></div>
+                        <div class="logo"><a style="color:wheat" href="#">Auction.lk</a></div>
                     </div>
-                    <div class="footer_title">Got Question? Call Us 24/7</div>
-                    <div class="footer_phone">+077 123456</div>
+                    <div class="footer_title" style="color:wheat">Got Question? Call Us 24/7</div>
+                    <div class="footer_phone" style="color:orange">+077 123456</div>
                     <div class="footer_contact_text">
                         <p>address 1</p>
                         <p>address 2</p>
@@ -36,7 +43,7 @@
                 <!-- <div class="footer_column"> -->
                 <!-- <div class="footer_title">Login from </div> -->
                 <ul class="footer_list ">
-                    <li><a href="{{url('areaAgent')}}">Became an Area Agent</a></li>
+                    <li><a href="{{url('areaAgent')}}" class="footer-middle-text">Became an Area Agent</a></li>
                     <li><a href="#">Became an Member</a></li>
                     <li><a href="#">Offer Your leasing Rate</a></li>
                     <li><a href="#">Offer Your Insurance Rate</a></li>
