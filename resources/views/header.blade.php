@@ -1,4 +1,6 @@
 <header class="header" style="position: fixed;background-color: #0D47A1;z-index:120 ">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
             <!-- Header Main -->
 
             <div class="header_main">
