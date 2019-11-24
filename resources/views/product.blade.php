@@ -105,6 +105,7 @@
             </div>
             <div class="col-md-5 col-12">
                 <div class="row" style="padding-top: 4%;">
+
                     <div class="col-12" style="padding-top: 3%;">
                         <div class="container">
                             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -134,6 +135,7 @@
                                 </a>
                             </div>
                             <!-- <div class="table-active">
+
                                 <table style="width:100%">
                                 <tr>
                                     <th>Firstname</th>
@@ -156,6 +158,7 @@
                                     <td>Jackson</td>
                                 </tr>
                                 </table>
+
                             </div> -->
                         </div>
                     </div>
@@ -188,6 +191,7 @@
                                 </a>
                             </div>
                             <!-- <div class="table-active">
+
                                 <table style="width:100%">
                                 <tr>
                                     <th>Firstname</th>
@@ -210,7 +214,9 @@
                                     <td>Jackson</td>
                                 </tr>
                                 </table>
+
                             </div> -->
+
                         </div>
                     </div>
                 </div>
@@ -229,6 +235,7 @@
                         <div class="container">
                             <div class="table-active">
                                 <table style="width:100%">
+
                                     <tr>
                                         <th>Firstname</th>
                                         <th>Lastname</th>
@@ -249,6 +256,7 @@
                                         <td>Eve</td>
                                         <td>Jackson</td>
                                     </tr>
+
                                 </table>
                             </div>
                         </div>
@@ -263,6 +271,7 @@
                         <div class="container">
                             <div class="table-active">
                                 <table style="width:100%">
+
                                     <tr>
                                         <th>Firstname</th>
                                         <th>Lastname</th>
@@ -283,6 +292,7 @@
                                         <td>Eve</td>
                                         <td>Jackson</td>
                                     </tr>
+
                                 </table>
                             </div>
                         </div>
@@ -293,7 +303,6 @@
         </div>
 
     </div>
-
 
 
     <div class="row" style="padding-top: 2%;padding-bottom: 2%; margin-left: 15%;margin-right: 15%;">

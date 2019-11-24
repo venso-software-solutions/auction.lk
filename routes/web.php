@@ -93,3 +93,10 @@ Route::get('/leasingAgentForm', function () {
 Route::get('/insuranceAgentForm', function () {
     return view('insuranceAgentForm');
 });
+Route::get('/productCopy', function () {
+    return view('productCopy');
+});
+
+Route::get('/carosal', function () {
+    return view('carosal');
+});

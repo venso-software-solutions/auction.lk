@@ -1,4 +1,5 @@
 <header class="header" style="position: fixed;background-color: #0D47A1;z-index:120 ">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <!-- Header Main -->
@@ -22,6 +23,7 @@
                             <div class="header_search_form_container">
                                 <form action="#" class="header_search_form clearfix">
                                     <input type="search" required="required" class="header_search_input" style="width: 100%;" placeholder="Search for products...">
+
 
                                     <button type="submit" class="header_search_button trans_300" style="background:orange" value="Submit"><img src="images/search.png" alt=""></button>
                                 </form>
