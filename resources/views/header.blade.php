@@ -3,10 +3,10 @@
 
             <div class="header_main">
                 <div class="container" style="width:unset;max-width:80%;">
-                    <div class="row" style="height:120px;">
+                    <div class="row rowx" style="height:120px;">
 
                         <!-- Logo -->
-                        <div class="col-sm-3 col-3 order-1">
+                        <div class="col-sm-3 col-3 ">
                             <div class="logo_container">
                                 <div class="logo"><a href="#" style="color:wheat">Auction.lk</a></div>
                             </div>
@@ -14,7 +14,7 @@
 
 
                         <!-- Search -->
-                        <div class="col-sm-5 order-3 text-sm-left text-right">
+                        <div class="col-sm-5 col-5 text-sm-leftx">
                             <div class="header_search">
                                 <div class="header_search_content">
                                     <div class="header_search_form_container">
@@ -27,8 +27,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-4   order-3 text-sm-left text-right">
-                            <div class="logo_container" style="padding-left: 50%;">
+                        <div class="col-sm-4 col-4  order-3 text-sm-left text-right">
+                            <div class="logo_container logo_containerx" style="padding-left: 50%;">
                                 <div class="logo"><button type="button" style="width: 200px;align-items: flex-end;background-color:#F9A825; border:none" class="btn btn-primary">Post Add</button></div>
 
                             </div>
