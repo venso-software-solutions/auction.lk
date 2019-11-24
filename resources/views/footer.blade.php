@@ -44,14 +44,15 @@
                 <!-- <div class="footer_title">Login from </div> -->
                 <ul class="footer_list ">
                     <li><a href="{{url('areaAgent')}}" class="footer-middle-text">Became an Area Agent</a></li>
-                    <li><a href="#">Became an Member</a></li>
-                    <li><a href="#">Offer Your leasing Rate</a></li>
-                    <li><a href="#">Offer Your Insurance Rate</a></li>
+                    
+                    <li><a href="{{url('insuranceAgent')}}">Became an Insurance Agent</a></li>
+                    <li><a href="{{url('leasingAgent')}}">Became an Leasing Agent</a></li>
+                    <li><a href="{{url('membership')}}">Became an Member</a></li>
                     <li><a href="{{url('buynow')}}">Buy Now</a></li>
-                    <li><a href="#">Banner Ads</a></li>
+                   
                     <li><a href="{{url('promoteAdd')}}">Promotions</a></li>
                     <div class="footer_col">
-                        <li><a href="#">another</a></li>
+                      
                     </div>
 
                 </ul>
@@ -65,8 +66,22 @@
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">terms of conditions</a></li>
                         <li><a href="#">site map</a></li>
+                        <li><a href="#">Banner Ads</a></li>
                     </ul>
 
+                </div>
+                <div>
+                    <div class="footer_social" style="color:orange;font-weight: 500;display: flex;">
+                        download app
+                        <ul>
+                           
+                            <li style="margin-left: 20px;"><a href="http://"><i class="fab fa-angular" style="font-size:48px;color:red;"></i></i></a></li>
+                           
+                        </ul>
+                    </div>
+
+                   
+                    
                 </div>
             </div>
 
@@ -118,6 +133,13 @@
 <script src="{{URL :: asset ('plugins/slick-1.8.0/slick.js')}}"></script>
 <script src="{{URL :: asset ('plugins/easing/easing.js')}}"></script>
 <script src="{{URL :: asset ('js/custom.js')}}"></script>
+
+            <script>
+                $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();   
+                });
+            </script>
+
 </body>
 
 </html>
