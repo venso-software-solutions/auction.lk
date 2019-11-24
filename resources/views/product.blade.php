@@ -21,32 +21,46 @@
     <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
     <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
     <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
-        @media('min-width:400px'){
-            .containery{
-                width:70%;
+        @media('min-width:400px') {
+            .containery {
+                width: 70%;
 
             }
-        }@media only screen and (min-width: 250px){
+        }
+
+        @media only screen and (min-width: 250px) {
             body {
                 font-size: 14px;
             }
         }
-        @media only screen and (min-width: 250px){
-        body, h1, h2, h3, h4, h5, h6 {
-            font-weight: 400;
-        }}
-@media('min-width:750px'){
-h3{
-    font-size: 1.2858rem;
-}
-}
-@media('min-width:800px'){
-h3{
-    font-size: 1.2858rem;
-}
-}
-}
+
+        @media only screen and (min-width: 250px) {
+
+            body,
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-weight: 400;
+            }
+        }
+
+        @media('min-width:750px') {
+            h3 {
+                font-size: 1.2858rem;
+            }
+        }
+
+        @media('min-width:800px') {
+            h3 {
+                font-size: 1.2858rem;
+            }
+        }
+        }
     </style>
 
 
@@ -60,13 +74,21 @@ h3{
 
         <div class="row" style="padding-top: 2%;padding-bottom: 2%;">
             <div class="col-md-7 col-12 productimg" style="">
-                <div class="row" >
+                <div class="row">
                     <div class="col-12">
                         <div class="row">
-                            <div class="col-4" style="height: 30px;"><h3 style="font-weight: bold;">Product 1</h3></div>
-                            <div class="col-2" style="height: 30px;"><h3 >Colombo</h3></div>
-                            <div class="col-2" style="height: 30px;"><h3 >4000LKR</h3></div>
-                            <div class="col-4" style="height: 30px;"><h3 >0711234567</h3></div>
+                            <div class="col-4" style="height: 30px;">
+                                <h3 style="font-weight: bold;">Product 1</h3>
+                            </div>
+                            <div class="col-2" style="height: 30px;">
+                                <h3>Colombo</h3>
+                            </div>
+                            <div class="col-2" style="height: 30px;">
+                                <h3>4000LKR</h3>
+                            </div>
+                            <div class="col-4" style="height: 30px;">
+                                <h3>0711234567</h3>
+                            </div>
                             <div class="col-12" style="background-color: black;height: 90%;margin: unset;width: 100%;"></div>
                         </div>
 
@@ -83,9 +105,37 @@ h3{
             </div>
             <div class="col-md-5 col-12">
                 <div class="row" style="padding-top: 4%;">
-                    <div class="col-12"  style="padding-top: 9%;">
+
+                    <div class="col-12" style="padding-top: 3%;">
                         <div class="container">
-                            <div class="table-active">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="https://picsum.photos/200/" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://picsum.photos/200/" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://picsum.photos/200/" alt="Third slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <!-- <div class="table-active">
+
                                 <table style="width:100%">
                                 <tr>
                                     <th>Firstname</th>
@@ -108,12 +158,40 @@ h3{
                                     <td>Jackson</td>
                                 </tr>
                                 </table>
-                            </div>
+
+                            </div> -->
                         </div>
                     </div>
-                    <div class="col-12" style="padding-top: 2%;">
+                    <div class="col-12" style="padding-top: 3%;">
                         <div class="container">
-                            <div class="table-active">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="https://picsum.photos/200/" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://picsum.photos/200/" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://picsum.photos/200/" alt="Third slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <!-- <div class="table-active">
+
                                 <table style="width:100%">
                                 <tr>
                                     <th>Firstname</th>
@@ -136,7 +214,9 @@ h3{
                                     <td>Jackson</td>
                                 </tr>
                                 </table>
-                            </div>
+
+                            </div> -->
+
                         </div>
                     </div>
                 </div>
@@ -155,26 +235,28 @@ h3{
                         <div class="container">
                             <div class="table-active">
                                 <table style="width:100%">
-                                <tr>
-                                    <th>Firstname</th>
-                                    <th>Lastname</th>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
+
+                                    <tr>
+                                        <th>Firstname</th>
+                                        <th>Lastname</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Jill</td>
+                                        <td>Smith</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Eve</td>
+                                        <td>Jackson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jill</td>
+                                        <td>Smith</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Eve</td>
+                                        <td>Jackson</td>
+                                    </tr>
+
                                 </table>
                             </div>
                         </div>
@@ -189,26 +271,28 @@ h3{
                         <div class="container">
                             <div class="table-active">
                                 <table style="width:100%">
-                                <tr>
-                                    <th>Firstname</th>
-                                    <th>Lastname</th>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
+
+                                    <tr>
+                                        <th>Firstname</th>
+                                        <th>Lastname</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Jill</td>
+                                        <td>Smith</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Eve</td>
+                                        <td>Jackson</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Jill</td>
+                                        <td>Smith</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Eve</td>
+                                        <td>Jackson</td>
+                                    </tr>
+
                                 </table>
                             </div>
                         </div>
@@ -221,79 +305,78 @@ h3{
     </div>
 
 
-
-        <div class="row" style="padding-top: 2%;padding-bottom: 2%; margin-left: 15%;margin-right: 15%;">
-            <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
-                <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+    <div class="row" style="padding-top: 2%;padding-bottom: 2%; margin-left: 15%;margin-right: 15%;">
+        <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
+            <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
                  border: solid 1px #e8e8e8;border-radius: 5%">
-                    <div class="row" style="margin: unset;">
-                        <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
-                        <div class="col-12">
-                            <p style="font-size: 20px;font-weight: bold">Product 1</p>
-                        </div>
+                <div class="row" style="margin: unset;">
+                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                    <div class="col-12">
+                        <p style="font-size: 20px;font-weight: bold">Product 1</p>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
-                    <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
-                    border: solid 1px #e8e8e8;border-radius: 5%">
-                        <div class="row" style="margin: unset;">
-                            <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
-                            <div class="col-12">
-                                <p style="font-size: 20px;font-weight: bold">Product 2</p>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
-                <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
-                 border: solid 1px #e8e8e8;border-radius: 5%">
-                    <div class="row" style="margin: unset;">
-                        <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
-                        <div class="col-12">
-                            <p style="font-size: 20px;font-weight: bold">Product 3</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
-                    <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
-                    border: solid 1px #e8e8e8;border-radius: 5%">
-                        <div class="row" style="margin: unset;">
-                            <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
-                            <div class="col-12">
-                                <p style="font-size: 20px;font-weight: bold">Product 4</p>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
-                <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
-                 border: solid 1px #e8e8e8;border-radius: 5%">
-                    <div class="row" style="margin: unset;">
-                        <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
-                        <div class="col-12">
-                            <p style="font-size: 20px;font-weight: bold">Product 5</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
-                    <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
-                    border: solid 1px #e8e8e8;border-radius: 5%">
-                        <div class="row" style="margin: unset;">
-                            <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
-                            <div class="col-12">
-                                <p style="font-size: 20px;font-weight: bold">Product 6</p>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-
         </div>
-        <div class="row" style="height: 150px;margin-bottom: 3%;margin-left: 15%;margin-right: 15%;">
-            <div class="col-12" style="background-color: black;"></div>
+        <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
+            <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+                    border: solid 1px #e8e8e8;border-radius: 5%">
+                <div class="row" style="margin: unset;">
+                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                    <div class="col-12">
+                        <p style="font-size: 20px;font-weight: bold">Product 2</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
+            <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+                 border: solid 1px #e8e8e8;border-radius: 5%">
+                <div class="row" style="margin: unset;">
+                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                    <div class="col-12">
+                        <p style="font-size: 20px;font-weight: bold">Product 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
+            <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+                    border: solid 1px #e8e8e8;border-radius: 5%">
+                <div class="row" style="margin: unset;">
+                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                    <div class="col-12">
+                        <p style="font-size: 20px;font-weight: bold">Product 4</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
+            <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+                 border: solid 1px #e8e8e8;border-radius: 5%">
+                <div class="row" style="margin: unset;">
+                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                    <div class="col-12">
+                        <p style="font-size: 20px;font-weight: bold">Product 5</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-6" style="padding-bottom: 2%;">
+            <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
+                    border: solid 1px #e8e8e8;border-radius: 5%">
+                <div class="row" style="margin: unset;">
+                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                    <div class="col-12">
+                        <p style="font-size: 20px;font-weight: bold">Product 6</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row" style="height: 150px;margin-bottom: 3%;margin-left: 15%;margin-right: 15%;">
+        <div class="col-12" style="background-color: black;"></div>
+    </div>
     </div>
 
 
@@ -314,35 +397,40 @@ h3{
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
     <script type="text/javascript">
-    $(function() {
-        $( "#datepicker" ).datepicker({
-        changeMonth: true,
-        changeYear: true
+        $(function() {
+            $("#datepicker").datepicker({
+                changeMonth: true,
+                changeYear: true
+            });
         });
-    });
     </script>
     <script type="text/javascript">
-        $('ul.expandible').each(function(){
+        $('ul.expandible').each(function() {
             var $ul = $(this),
                 $lis = $ul.find('li:gt(4)'),
                 isExpanded = $ul.hasClass('expanded');
             $lis[isExpanded ? 'show' : 'hide']();
 
-            if($lis.length > 0){
+            if ($lis.length > 0) {
                 $ul
                     .append($('<span class="showmore"><li class="expand">' + (isExpanded ? 'Show Less' : 'Show More') + '</li></span>')
-                    .click(function(event){
-                        var isExpanded = $ul.hasClass('expanded');
-                        event.preventDefault();
-                        $(this).html(isExpanded ? 'Show More' : 'Show Less');
-                        $ul.toggleClass('expanded');
-                        $lis.toggle();
-                    }));
+                        .click(function(event) {
+                            var isExpanded = $ul.hasClass('expanded');
+                            event.preventDefault();
+                            $(this).html(isExpanded ? 'Show More' : 'Show Less');
+                            $ul.toggleClass('expanded');
+                            $lis.toggle();
+                        }));
             }
-        });
+        }); <
+        script src = "https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity = "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin = "anonymous" >
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </script>
 
 </body>
 
 </html>
-
