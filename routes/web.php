@@ -72,10 +72,10 @@ Route::get('/insuranceAgent', function () {
 });
 
 Route::get('/leasingAgent', function () {
-    return view('pamal');
+    return view('leasingAgent');
 });
-Route::get('/membershipAgent', function () {
-    return view('pamal');
+Route::get('/membership', function () {
+    return view('membership');
 });
 
 Route::get('/buynow', function () {
