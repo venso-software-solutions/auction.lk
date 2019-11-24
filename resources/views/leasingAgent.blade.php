@@ -87,18 +87,18 @@
             <div class="col-sm-4 col-12">
                 <div class="packagecard">
                     <div class="containerx card">
-                        <div class="char_title" style="align-items: center; background-color:gold;padding :5px">Journier Executive</div>
-                        <div class="footer_phone">50 ads limit per month</div>
-                        <div class="cardtext" style="text-align: justify">you have access to post 50 ads per month.one ad cost is 300/= .you can earn 15,000/= per month</div>
-                        <div class="footer_phone">10 topup ads access</div>
-                        <div class="cardtext" style="text-align: justify">you have access to post 10 ads per month.one ad cost is 500/= .you can earn 5000/= per month</div>
+                        <div class="char_title" style="align-items: center; background-color:gold;padding :5px" data-toggle="tooltip" title="select your plan">Silver</div>
+                        <div class="footer_phone">50 offer access per month</div>
+                        <div class="cardtext" style="text-align: justify">you can offer your leasing rate or loan rate for vehicle and property 50 times per day  </div>
+                        <div class="footer_phone">sms notification</div>
+                        <div class="cardtext" style="text-align: justify">we will send you to details links of new vehicle and property ads details via sms</div>
                         <div class="footer_phone">referal earning access</div>
-                        <div class="cardtext" style="text-align: justify">you have accesss refer this packages to the your frind .if someone buy under your promo cord we will pay you 50% commintion per sale</div>
+                        <div class="cardtext" style="text-align: justify">//you have accesss refer this packages to the your frind .if someone buy under your promo cord we will pay you 50% commintion per sale</div>
                         <div class="footer_phone">verify agent certificate</div>
                         <div class="cardtext" style="text-align: justify">ones you joined as a aria agent .we will send cetificate of verified agent .this cetificate help you to build trust with your client </div>
                         <div class="footer_phone">sms billing access</div>
-                        <div class="cardtext" style="text-align: justify">ones you post your client ad .cliant will recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
-                        <div><a><a class="btn btn-outline-warning" href="{{ url('areaAgentForm') }}" style="margin:20px;">Get Started</a></a></div>
+                        <div class="cardtext" style="text-align: justify">//ones you post your client ad .cliant will recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
+                        <div><a><a class="btn btn-outline-warning" href="{{ url('leasingAgentForm') }}" style="margin:20px;" data-toggle="tooltip" title="500/MONTH">Get Started</a></a></div>
                     </div>
                 </div>
             </div>
@@ -106,43 +106,46 @@
             <div class="col-sm-4 col-12">
                 <div class="packagecard">
                     <div class="containerx card">
-                        <div class="char_title" style="align-items: center; background-color:gold;padding :5px">Journier Executive</div>
-                        <div class="footer_phone">50 ads limit per month</div>
-                        <div class="cardtext" style="text-align: justify">you have access to post 50 ads per month.one ad cost is 300/= .you can earn 15,000/= per month</div>
-                        <div class="footer_phone">10 topup ads access</div>
-                        <div class="cardtext" style="text-align: justify">you have access to post 10 ads per month.one ad cost is 500/= .you can earn 5000/= per month</div>
+                        <div class="char_title" style="align-items: center; background-color:gold;padding :5px" data-toggle="tooltip" title="select your plan">Platinum</div>
+                        <div class="footer_phone">100 offer access per month</div>
+                        <div class="cardtext" style="text-align: justify">you can offer your leasing rate or loan rate for vehicle and property 100 times per day  </div>
+                        <div class="footer_phone">sms notification</div>
+                        <div class="cardtext" style="text-align: justify">we will send you to details links of new vehicle and property ads details via sms</div>
                         <div class="footer_phone">referal earning access</div>
-                        <div class="cardtext" style="text-align: justify">you have accesss refer this packages to the your frind .if someone buy under your promo cord we will pay you 50% commintion per sale</div>
+                        <div class="cardtext" style="text-align: justify">//you have accesss refer this packages to the your frind .if someone buy under your promo cord we will pay you 50% commintion per sale</div>
                         <div class="footer_phone">verify agent certificate</div>
                         <div class="cardtext" style="text-align: justify">ones you joined as a aria agent .we will send cetificate of verified agent .this cetificate help you to build trust with your client </div>
                         <div class="footer_phone">sms billing access</div>
-                        <div class="cardtext" style="text-align: justify">ones you post your client ad .cliant will recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
-                        <div><a><a class="btn btn-outline-warning" href="{{ url('leasingAgentForm') }}" style="margin:20px;">Get Started</a></a></div>
+                        <div class="cardtext" style="text-align: justify">//ones you post your client ad .cliant will recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
+                        <div><a><a class="btn btn-outline-warning" href="{{ url('leasingAgentForm') }}" style="margin:20px;" data-toggle="tooltip" title="1000/MONTH">Get Started</a></a></div>
                     </div>
-
-
                 </div>
             </div>
 
             <div class="col-sm-4 col-12">
                 <div class="packagecard">
                     <div class="containerx card">
-                        <div class="char_title" style="align-items: center; background-color:gold;padding :5px">Journier Executive</div>
-                        <div class="footer_phone">50 ads limit per month</div>
-                        <div class="cardtext" style="text-align: justify">you have access to post 50 ads per month.one ad cost is 300/= .you can earn 15,000/= per month</div>
-                        <div class="footer_phone">10 topup ads access</div>
-                        <div class="cardtext" style="text-align: justify">you have access to post 10 ads per month.one ad cost is 500/= .you can earn 5000/= per month</div>
+                        <div class="char_title" style="align-items: center; background-color:gold;padding :5px" data-toggle="tooltip" title="select your plan">Gold</div>
+                        <div class="footer_phone">200 offer access per month</div>
+                        <div class="cardtext" style="text-align: justify">you can offer your leasing rate or loan rate for vehicle and property 100 times per day  </div>
+                        <div class="footer_phone">sms notification</div>
+                        <div class="cardtext" style="text-align: justify">we will send you to details links of new vehicle and property ads details via sms</div>
                         <div class="footer_phone">referal earning access</div>
-                        <div class="cardtext" style="text-align: justify">you have accesss refer this packages to the your frind .if someone buy under your promo cord we will pay you 50% commintion per sale</div>
+                        <div class="cardtext" style="text-align: justify">//you have accesss refer this packages to the your frind .if someone buy under your promo cord we will pay you 50% commintion per sale</div>
                         <div class="footer_phone">verify agent certificate</div>
                         <div class="cardtext" style="text-align: justify">ones you joined as a aria agent .we will send cetificate of verified agent .this cetificate help you to build trust with your client </div>
                         <div class="footer_phone">sms billing access</div>
-                        <div class="cardtext" style="text-align: justify">ones you post your client ad .cliant will recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
-                        <div><a><a class="btn btn-outline-warning" href="{{ url('insuranceAgentForm') }}" style="margin:20px;">Get Started</a></a></div>
+                        <div class="cardtext" style="text-align: justify">//ones you post your client ad .cliant will recive thank you massage with payment verified sms .you don’t need worry about manual recipt .you can collect payment from client ones client recive sms</div>
+                        <div><a><a class="btn btn-outline-warning" href="{{ url('leasingAgentForm') }}" style="margin:20px;" data-toggle="tooltip" title="2000/MONTH">Get Started</a></a></div>
                     </div>
                 </div>
             </div>
+
+
+            
         </div>
+
+        
 
 
     </div>

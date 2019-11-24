@@ -75,7 +75,7 @@
         <div class="" style="padding-top: 150px;padding-bottom: 150px;padding-left: 15%;padding-right: 15%;">
             <!-- Default form contact -->
             <div class="card">
-                <form class="text-center border border-light p-5" action="#!">
+                <form class="text-center border border-light p-5" action="#!" style="background-color: lightgoldenrodyellow;" >
 
                     <!-- <p class="h4 mb-4">Contact us</p> -->
 
