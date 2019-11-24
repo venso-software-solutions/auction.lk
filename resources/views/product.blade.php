@@ -72,13 +72,7 @@ h3{
 
                     </div>
                 </div>
-            </div>
-            <div class="col-md-5 col-12"></div>
-
-            </div>
-            <div class="col-md-7 col-12" style="height: 100px">
-
-                <div class="row" style="padding-top: 2%;padding-bottom: 2%;height: 100%">
+                <div class="row" style="padding-top: 2%;padding-bottom: 2%;height: 30%">
                     <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
                     <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
                     <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
@@ -87,11 +81,145 @@ h3{
                     <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
                 </div>
             </div>
-            <div class="col-md-5 col-12"></div>
+            <div class="col-md-5 col-12">
+                <div class="row" style="padding-top: 4%;">
+                    <div class="col-12"  style="padding-top: 9%;">
+                        <div class="container">
+                            <div class="table-active">
+                                <table style="width:100%">
+                                <tr>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
+                                </tr>
+                                <tr>
+                                    <td>Jill</td>
+                                    <td>Smith</td>
+                                </tr>
+                                <tr>
+                                    <td>Eve</td>
+                                    <td>Jackson</td>
+                                </tr>
+                                <tr>
+                                    <td>Jill</td>
+                                    <td>Smith</td>
+                                </tr>
+                                <tr>
+                                    <td>Eve</td>
+                                    <td>Jackson</td>
+                                </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12" style="padding-top: 2%;">
+                        <div class="container">
+                            <div class="table-active">
+                                <table style="width:100%">
+                                <tr>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
+                                </tr>
+                                <tr>
+                                    <td>Jill</td>
+                                    <td>Smith</td>
+                                </tr>
+                                <tr>
+                                    <td>Eve</td>
+                                    <td>Jackson</td>
+                                </tr>
+                                <tr>
+                                    <td>Jill</td>
+                                    <td>Smith</td>
+                                </tr>
+                                <tr>
+                                    <td>Eve</td>
+                                    <td>Jackson</td>
+                                </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 col-12" style="height: 100px">
+            </div>
+            <div class="col-md-5 col-12">
+            </div>
+            <div class="col-md-7 col-12" style="padding-top: 5%;">
+                <div class="col-12" style="background-color: red;height: 300px;"></div>
 
+            </div>
+            <div class="col-md-5 col-12" style="height: 50%">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="container">
+                            <div class="table-active">
+                                <table style="width:100%">
+                                <tr>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
+                                </tr>
+                                <tr>
+                                    <td>Jill</td>
+                                    <td>Smith</td>
+                                </tr>
+                                <tr>
+                                    <td>Eve</td>
+                                    <td>Jackson</td>
+                                </tr>
+                                <tr>
+                                    <td>Jill</td>
+                                    <td>Smith</td>
+                                </tr>
+                                <tr>
+                                    <td>Eve</td>
+                                    <td>Jackson</td>
+                                </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7 col-12" style="height: 100px">
+            </div>
+            <div class="col-md-5 col-12" style="margin-top: -15%;">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="container">
+                            <div class="table-active">
+                                <table style="width:100%">
+                                <tr>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
+                                </tr>
+                                <tr>
+                                    <td>Jill</td>
+                                    <td>Smith</td>
+                                </tr>
+                                <tr>
+                                    <td>Eve</td>
+                                    <td>Jackson</td>
+                                </tr>
+                                <tr>
+                                    <td>Jill</td>
+                                    <td>Smith</td>
+                                </tr>
+                                <tr>
+                                    <td>Eve</td>
+                                    <td>Jackson</td>
+                                </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>
+
+    </div>
+
 
 
         <div class="row" style="padding-top: 2%;padding-bottom: 2%; margin-left: 15%;margin-right: 15%;">
