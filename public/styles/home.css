@@ -5744,6 +5744,11 @@ body.has-campaign .container.main {
     .breadcrumbx{
         padding-top: 12%;
     }
+    .container {
+        max-width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
     .productimg{
         height: 350px;
     }
@@ -5781,9 +5786,10 @@ body.has-campaign .container.main {
         height: 100px;
         width: 100px;
     }
-    .container{
-        margin: unset;
-        max-width: 100%;
+    .container {
+        max-width: 70%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .breadcrumbx {
         padding-top: 12%;
@@ -5807,7 +5813,9 @@ body.has-campaign .container.main {
 }
 @media (min-width: 576px) {
     .container {
-        max-width: 100%;
+        max-width: 70%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .rowx{
     padding-top: 0%;
@@ -5817,7 +5825,9 @@ body.has-campaign .container.main {
 
 @media (min-width: 765px) {
     .container {
-        max-width: 100%;
+        max-width: 70%;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     .text-sm-leftx {
@@ -5842,7 +5852,7 @@ body.has-campaign .container.main {
         height: 350px;
     }
     .container {
-        max-width: 90%;
+        max-width: 70%;
         margin-right: auto;
         margin-left: auto;
     }
@@ -5916,7 +5926,20 @@ body.has-campaign .container.main {
         height: 168px;
     }
 }
+@media only screen and (min-width: 250px) {
 
+    .rowxy {
+        padding-top: 10%;
+    }
+
+}
+@media only screen and (min-width: 750px) {
+
+    .rowxy{
+        padding-top: 5%;
+    }
+
+}
 
 
 

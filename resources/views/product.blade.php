@@ -23,16 +23,22 @@
     <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
-        @media('min-width:400px') {
+        @media(min-width:400px) {
             .containery {
-                width: 70%;
+                width: 100%;
+
+            }
+        }
+        @media(min-width:1200px) {
+            .containery {
+                width: 90%;
 
             }
         }
 
         @media only screen and (min-width: 250px) {
             body {
-                font-size: 14px;
+                font-size: 19px;
             }
         }
 
@@ -48,19 +54,43 @@
                 font-weight: 400;
             }
         }
+        @media(min-width:575px) {
+            h3 {
+                font-size: 1.3858rem;
+            }
 
-        @media('min-width:750px') {
+        }
+        @media(min-width:750px) {
             h3 {
                 font-size: 1.2858rem;
             }
-        }
-
-        @media('min-width:800px') {
-            h3 {
-                font-size: 1.2858rem;
+            .main-containerx{
+                margin-left: unset;
+                margin-right: unset;
+                width: 100%;
+                max-width: 100%;
             }
         }
+        @media(min-width:1000px) {
+            h3 {
+                font-size: 1.75rem;
+            }
+            body {
+                font-size: 14px;
+            }
         }
+        @media(min-width:1350px) {
+            h6 {
+                font-size: 1.2858rem;
+            }
+            .main-containerx{
+                margin-left: 10%;
+                margin-right: 10%;
+                width: 80%;
+                max-width: 1140px;
+            }
+        }
+
     </style>
 
 
@@ -70,10 +100,10 @@
 <body>
 
     @include('header')
-    <div class="container breadcrumbx" style="width: 100%;padding: unset;padding-top: 12%;margin-left: 10%;margin-right: 10%;width: 80%">
+    <div class="container breadcrumbx main-containerx" style="padding: unset;padding-top: 12%;">
 
         <div class="row" style="padding-top: 2%;padding-bottom: 2%;">
-            <div class="col-md-8 col-12 productimg" style="">
+            <div class="col-md-7 col-12 productimg" style="">
                 <div class="row">
                     <div class="col-12">
                         <div class="row">
@@ -154,11 +184,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-12">
-                <div class="row" style="padding-top: 4%;">
+            <div class="col-md-5 col-12">
+                <div class="row rowxy">
                     <div class="col-12" style="padding-top: 5%;">
                         <div class="container">
-                            <h5>Choose best leasing rental for the your vehical</h5>
+                            <div class="card card-header" style="background-color: green;color: aliceblue">
+                                <h5>Choose best leasing rental for the your vehical</h5>
+                            </div>
                             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -167,7 +199,7 @@
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="d-block w-100" src="https://picsum.photos/200/" style="height: 200px" alt="First slide">
+                                        <img class="d-bloc;k w-100" src="https://picsum.photos/200/" style="height: 200px" alt="First slide">
                                         <div class="col-12 table-active">
 
                                             <table style="width:100%">
@@ -308,37 +340,14 @@
                                     <span class="sr-only">Next</span>
                                 </a>
                             </div>
-                            <!-- <div class="table-active">
 
-                                <table style="width:100%">
-                                <tr>
-                                    <th>Firstname</th>
-                                    <th>Lastname</th>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
-                                </table>
-
-                            </div> -->
                         </div>
                     </div>
                     <div class="col-12" style="padding-top: 5%;">
                         <div class="container">
-                            <h5>Choose best insurance rental for the your vehical</h5>
+                            <div class="card card-header" style="background-color: green;color: aliceblue;">
+                                <h5>Choose best insurance rental for the your vehical</h5>
+                            </div>
                             <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
@@ -450,133 +459,6 @@
                                             </tr>
                                            </table>
                                         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
@@ -588,65 +470,29 @@
                                     <span class="sr-only">Next</span>
                                 </a>
                             </div>
-                            <!-- <div class="table-active">
-
-                                <table style="width:100%">
-                                <tr>
-                                    <th>Firstname</th>
-                                    <th>Lastname</th>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
-                                </table>
-
-                            </div> -->
 
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 col-12" style="height: 100px">
+            <div class="col-md-7 col-12" style="height: 100px">
             </div>
-            <div class="col-md-4 col-12" style="height: 50%">
+            <div class="col-md-5 col-12" style="height: 50%">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12" style="padding: 5%">
                         <div class="container">
+                            <div class="card card-header" style="background-color: #F9A825;color: aliceblue;">
+                                <h5>Seller contact</h5>
+                            </div>
                             <div class="table-active">
                                 <table style="width:100%">
-
                                     <tr>
-                                        <th>Firstname</th>
-                                        <th>Lastname</th>
+                                        <th style="text-align: center;">tp number</th>
+                                        <td style="text-align: center;">071 1234567</td>
                                     </tr>
                                     <tr>
-                                        <td>Jill</td>
-                                        <td>Smith</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Eve</td>
-                                        <td>Jackson</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Jill</td>
-                                        <td>Smith</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Eve</td>
-                                        <td>Jackson</td>
+                                        <th style="text-align: center;">city</th>
+                                        <td style="text-align: center;">colombo</td>
                                     </tr>
 
                                 </table>
@@ -655,9 +501,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 col-12" style="height: 100px">
+            <div class="col-md-7 col-12" style="height: 100px">
             </div>
-            <div class="col-md-4 col-12" style="margin-top: -15%;">
+            <div class="col-md-5 col-12" style="margin-top: -15%;">
                 <div class="row">
                     <div class="col-12">
                         <div class="container">
