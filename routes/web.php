@@ -100,3 +100,14 @@ Route::get('/productCopy', function () {
 Route::get('/carosal', function () {
     return view('carosal');
 });
+
+Route::get('/contactLeasingOfficerForm', function () {
+    return view('contactLeasingOfficerForm');
+});
+
+Route::get('/leasingOfficerButton', function () {
+    return view('leasingOfficerButton');
+});
+
+
+

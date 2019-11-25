@@ -84,7 +84,7 @@ h3{
             <div class="col-md-5 col-12">
                 <div class="row" >
 <!-- start of the card of the carosel -->
-                    <div class="col-12"  style=" margin:40px 0;">
+                    <div class="col-12"  style=" margin:20px 0;">
                         <div class="container "  style="background-color:orange; height:410px; width:200px;">
                             
                                                         
@@ -200,7 +200,7 @@ h3{
                     </div>
 
 <!-- end of the carosel -->
-                    <div style="margin-left: 170px;"><a><a class="btn btn-outline-warning" href="{{ url('') }}"  data-toggle="tooltip" title="earning 15,000 per month">Get Started</a></a></div>
+                    <div style="margin-left: 150px;"><a><a class="btn btn-outline-success" href="{{ url('leasingOfficerButton') }}"  data-toggle="tooltip" title="Choose best leasing rental">Contact leasing officer</a></a></div>
                     
                 </div>
 
@@ -212,76 +212,14 @@ h3{
             </div>
             <div class="col-md-5 col-12">
             </div>
+            
             <div class="col-md-7 col-12" style="padding-top: 5%;">
                 <div class="col-12" style="background-color: red;height: 300px;"></div>
 
             </div>
-            <div class="col-md-5 col-12" style="height: 50%">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="container">
-                            <div class="table-active">
-                                <table style="width:100%">
-                                <tr>
-                                    <th>Firstname</th>
-                                    <th>Lastname</th>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-7 col-12" style="height: 100px">
-            </div>
-            <div class="col-md-5 col-12" style="margin-top: -15%;">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="container">
-                            <div class="table-active">
-                                <table style="width:100%">
-                                <tr>
-                                    <th>Firstname</th>
-                                    <th>Lastname</th>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+         
+
+           
 
         </div>
 
