@@ -73,7 +73,7 @@
     <div class="container breadcrumbx" style="width: 100%;padding: unset;padding-top: 12%;margin-left: 10%;margin-right: 10%;width: 80%">
 
         <div class="row" style="padding-top: 2%;padding-bottom: 2%;">
-            <div class="col-md-7 col-12 productimg" style="">
+            <div class="col-md-8 col-12 productimg" style="">
                 <div class="row">
                     <div class="col-12">
                         <div class="row">
@@ -89,24 +89,76 @@
                             <div class="col-4" style="height: 30px;">
                                 <h3>0711234567</h3>
                             </div>
-                            <div class="col-12" style="background-color: black;height: 90%;margin: unset;width: 100%;"></div>
+                            <div class="col-12" style="background-color: black;height: 90%;margin: unset;width: 100%;padding: unset">
+                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
+                                        <li data-target="#carouselExampleIndicators2" data-slide-to="5"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="images/1.jpg" style="height: 360px" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/2.jpg" style="height: 360px" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/3.jpg" style="height: 360px" alt="Third slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/4.jpg" style="height: 360px" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/5.jpg" style="height: 360px" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="images/6.jpg" style="height: 360px" alt="Third slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
                 </div>
                 <div class="row" style="padding-top: 2%;padding-bottom: 2%;height: 30%">
-                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
-                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
-                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
-                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
-                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
-                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding-right: 2%"></div>
+                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding: unset">
+                        <img class="d-block w-100" src="images/1.jpg" style="width: 100%;height: 100%;">
+                    </div>
+                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding: unset">
+                        <img class="d-block w-100" src="images/2.jpg" style="width: 100%;height: 100%;">
+                    </div>
+                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding: unset">
+                        <img class="d-block w-100" src="images/3.jpg" style="width: 100%;height: 100%;">
+                    </div>
+                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding: unset">
+                        <img class="d-block w-100" src="images/4.jpg" style="width: 100%;height: 100%;">
+                    </div>
+                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding: unset">
+                        <img class="d-block w-100" src="images/5.jpg" style="width: 100%;height: 100%;">
+                    </div>
+                    <div class="col-2" style="border-color: black;height: 100%;border-style: groove;padding: unset">
+                        <img class="d-block w-100" src="images/6.jpg" style="width: 100%;height: 100%;">
+                    </div>
                 </div>
             </div>
-            <div class="col-md-5 col-12">
+            <div class="col-md-4 col-12">
                 <div class="row" style="padding-top: 4%;">
-                    <div class="col-12" style="padding-top: 3%;">
+                    <div class="col-12" style="padding-top: 5%;">
                         <div class="container">
+                            <h5>Choose best leasing rental for the your vehical</h5>
                             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -115,120 +167,467 @@
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="d-block w-100" src="https://picsum.photos/200/" alt="First slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="https://picsum.photos/200/" alt="Second slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="https://picsum.photos/200/" alt="Third slide">
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                            <!-- <div class="table-active">
-                                <table style="width:100%">
-                                <tr>
-                                    <th>Firstname</th>
-                                    <th>Lastname</th>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
-                                </table>
-                            </div> -->
-                        </div>
-                    </div>
-                    <div class="col-12" style="padding-top: 3%;">
-                        <div class="container">
-                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                </ol>
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" src="https://picsum.photos/200/" alt="First slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="https://picsum.photos/200/" alt="Second slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="https://picsum.photos/200/" alt="Third slide">
-                                    </div>
-                                </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                            <!-- <div class="table-active">
-                                <table style="width:100%">
-                                <tr>
-                                    <th>Firstname</th>
-                                    <th>Lastname</th>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
-                                <tr>
-                                    <td>Jill</td>
-                                    <td>Smith</td>
-                                </tr>
-                                <tr>
-                                    <td>Eve</td>
-                                    <td>Jackson</td>
-                                </tr>
-                                </table>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-7 col-12" style="height: 100px">
-            </div>
-            <div class="col-md-5 col-12">
-            </div>
-            <div class="col-md-7 col-12" style="padding-top: 5%;">
-                <div class="col-12" style="background-color: red;height: 300px;"></div>
+                                        <img class="d-block w-100" src="https://picsum.photos/200/" style="height: 200px" alt="First slide">
+                                        <div class="col-12 table-active">
 
+                                            <table style="width:100%">
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> agent name</td>
+                                                <td style="text-align: center;">Smith</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> leasing company name</td>
+                                                <td style="text-align: center;">janashakthi</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> leasing amount</td>
+                                                <td style="text-align: center;">Smith</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3 terms</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin-right: 5%">1 year</td>
+                                                <td>50000/=</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin-right: 5%">2 year</td>
+                                                <td>45000/=</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin-right: 5%">3 year</td>
+                                                <td>40000/=</td>
+
+
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                <div class="col-12" style="height: 50px;padding-bottom: 80px;padding-top: 1%;padding-left: 25%">
+                                                    <button type="button" style="width: 200px;align-items: flex-end;background-color:#F9A825; border:none" class="btn btn-primary">contact Leasing company</button>
+                                                </div>
+                                                </td>
+                                            </tr>
+                                           </table>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://picsum.photos/200/" style="height: 200px" alt="Second slide">
+                                        <div class="col-12 table-active">
+
+                                            <table style="width:100%">
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> agent name</td>
+                                                <td style="text-align: center;">Smith</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> leasing company name</td>
+                                                <td style="text-align: center;">janashakthi</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> leasing amount</td>
+                                                <td style="text-align: center;">Smith</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3 terms</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin-right: 5%">1 year</td>
+                                                <td>50000/=</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin-right: 5%">2 year</td>
+                                                <td>45000/=</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin-right: 5%">3 year</td>
+                                                <td>40000/=</td>
+
+
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                <div class="col-12" style="height: 50px;padding-bottom: 80px;padding-top: 1%;padding-left: 25%">
+                                                    <button type="button" style="width: 200px;align-items: flex-end;background-color:#F9A825; border:none" class="btn btn-primary">contact Leasing company</button>
+                                                </div>
+                                                </td>
+                                            </tr>
+                                           </table>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://picsum.photos/200/" style="height: 200px" alt="Third slide">
+                                        <div class="col-12 table-active">
+
+                                            <table style="width:100%">
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> agent name</td>
+                                                <td style="text-align: center;">Smith</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> leasing company name</td>
+                                                <td style="text-align: center;">janashakthi</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> leasing amount</td>
+                                                <td style="text-align: center;">Smith</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3 terms</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin-right: 5%">1 year</td>
+                                                <td>50000/=</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin-right: 5%">2 year</td>
+                                                <td>45000/=</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin-right: 5%">3 year</td>
+                                                <td>40000/=</td>
+
+
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                <div class="col-12" style="height: 50px;padding-bottom: 80px;padding-top: 1%;padding-left: 25%">
+                                                    <button type="button" style="width: 200px;align-items: flex-end;background-color:#F9A825; border:none" class="btn btn-primary">contact Leasing company</button>
+                                                </div>
+                                                </td>
+                                            </tr>
+                                           </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <!-- <div class="table-active">
+
+                                <table style="width:100%">
+                                <tr>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
+                                </tr>
+                                <tr>
+                                    <td>Jill</td>
+                                    <td>Smith</td>
+                                </tr>
+                                <tr>
+                                    <td>Eve</td>
+                                    <td>Jackson</td>
+                                </tr>
+                                <tr>
+                                    <td>Jill</td>
+                                    <td>Smith</td>
+                                </tr>
+                                <tr>
+                                    <td>Eve</td>
+                                    <td>Jackson</td>
+                                </tr>
+                                </table>
+
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-12" style="padding-top: 5%;">
+                        <div class="container">
+                            <h5>Choose best insurance rental for the your vehical</h5>
+                            <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" >
+                                        <img class="d-block w-100" src="https://picsum.photos/200/" style="height: 200px" alt="First slide">
+                                        <div class="col-12 table-active">
+
+                                            <table style="width:100%">
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> agent name</td>
+                                                <td style="text-align: center;">Smith</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> insurance company name</td>
+                                                <td style="text-align: center;">janashakthi</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> insurance amount</td>
+                                                <td style="text-align: center;">Smith</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3 terms</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin-right: 5%">1 year</td>
+                                                <td>80000/=</td></tr>
+
+
+                                            <tr><td>
+                                                <div class="col-12" style="height: 50px;padding-bottom: 80px;padding-top: 1%;padding-left: 25%">
+                                                    <button type="button" style="width: 200px;align-items: flex-end;background-color:#F9A825; border:none" class="btn btn-primary">contact insurance company</button>
+                                                </div>
+                                                </td>
+                                            </tr>
+                                           </table>
+                                        </div>
+
+
+
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://picsum.photos/200/" style="height: 200px" alt="Second slide">
+                                        <div class="col-12 table-active">
+
+                                            <table style="width:100%">
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> agent name</td>
+                                                <td style="text-align: center;">Smith</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> leasing company name</td>
+                                                <td style="text-align: center;">janashakthi</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> leasing amount</td>
+                                                <td style="text-align: center;">Smith</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3 terms</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin-right: 5%">1 year</td>
+                                                <td>50000/=</td></tr>
+
+
+                                            <tr><td>
+                                                <div class="col-12" style="height: 50px;padding-bottom: 80px;padding-top: 1%;padding-left: 25%">
+                                                    <button type="button" style="width: 200px;align-items: flex-end;background-color:#F9A825; border:none" class="btn btn-primary">contact insurance company</button>
+                                                </div>
+                                                </td>
+                                            </tr>
+                                           </table>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="https://picsum.photos/200/" style="height: 200px" alt="Third slide">
+                                        <div class="col-12 table-active">
+
+                                            <table style="width:100%">
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> agent name</td>
+                                                <td style="text-align: center;">Smith</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> leasing company name</td>
+                                                <td style="text-align: center;">janashakthi</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="text-align: center;font-weight: bold;"> leasing amount</td>
+                                                <td style="text-align: center;">Smith</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3 terms</td>
+                                            </tr>
+                                            <tr>
+                                                <td style="margin-right: 5%">1 year</td>
+                                                <td>50000/=</td></tr>
+
+
+                                            <tr><td>
+                                                <div class="col-12" style="height: 50px;padding-bottom: 80px;padding-top: 1%;padding-left: 25%">
+                                                    <button type="button" style="width: 200px;align-items: flex-end;background-color:#F9A825; border:none" class="btn btn-primary">contact insurance company</button>
+                                                </div>
+                                                </td>
+                                            </tr>
+                                           </table>
+                                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <!-- <div class="table-active">
+
+                                <table style="width:100%">
+                                <tr>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
+                                </tr>
+                                <tr>
+                                    <td>Jill</td>
+                                    <td>Smith</td>
+                                </tr>
+                                <tr>
+                                    <td>Eve</td>
+                                    <td>Jackson</td>
+                                </tr>
+                                <tr>
+                                    <td>Jill</td>
+                                    <td>Smith</td>
+                                </tr>
+                                <tr>
+                                    <td>Eve</td>
+                                    <td>Jackson</td>
+                                </tr>
+                                </table>
+
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-5 col-12" style="height: 50%">
+            <div class="col-md-8 col-12" style="height: 100px">
+            </div>
+            <div class="col-md-4 col-12" style="height: 50%">
                 <div class="row">
                     <div class="col-12">
                         <div class="container">
                             <div class="table-active">
                                 <table style="width:100%">
+
                                     <tr>
                                         <th>Firstname</th>
                                         <th>Lastname</th>
@@ -249,40 +648,25 @@
                                         <td>Eve</td>
                                         <td>Jackson</td>
                                     </tr>
+
                                 </table>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-7 col-12" style="height: 100px">
+            <div class="col-md-8 col-12" style="height: 100px">
             </div>
-            <div class="col-md-5 col-12" style="margin-top: -15%;">
+            <div class="col-md-4 col-12" style="margin-top: -15%;">
                 <div class="row">
                     <div class="col-12">
                         <div class="container">
                             <div class="table-active">
                                 <table style="width:100%">
-                                    <tr>
-                                        <th>Firstname</th>
-                                        <th>Lastname</th>
-                                    </tr>
-                                    <tr>
-                                        <td>Jill</td>
-                                        <td>Smith</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Eve</td>
-                                        <td>Jackson</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Jill</td>
-                                        <td>Smith</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Eve</td>
-                                        <td>Jackson</td>
-                                    </tr>
+
+
+
+
                                 </table>
                             </div>
                         </div>
@@ -292,8 +676,9 @@
 
         </div>
 
-    </div>
+        
 
+    </div>
 
 
     <div class="row" style="padding-top: 2%;padding-bottom: 2%; margin-left: 15%;margin-right: 15%;">
@@ -301,7 +686,9 @@
             <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
                  border: solid 1px #e8e8e8;border-radius: 5%">
                 <div class="row" style="margin: unset;">
-                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;padding: unset;">
+                        <img class="d-block w-100" src="images/3.jpg" style="width: 100%;height: 100%;">
+                    </div>
                     <div class="col-12">
                         <p style="font-size: 20px;font-weight: bold">Product 1</p>
                     </div>
@@ -312,7 +699,9 @@
             <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
                     border: solid 1px #e8e8e8;border-radius: 5%">
                 <div class="row" style="margin: unset;">
-                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;padding: unset;">
+                        <img class="d-block w-100" src="images/3.jpg" style="width: 100%;height: 100%;">
+                    </div>
                     <div class="col-12">
                         <p style="font-size: 20px;font-weight: bold">Product 2</p>
                     </div>
@@ -323,7 +712,9 @@
             <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
                  border: solid 1px #e8e8e8;border-radius: 5%">
                 <div class="row" style="margin: unset;">
-                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;padding: unset;">
+                        <img class="d-block w-100" src="images/3.jpg" style="width: 100%;height: 100%;">
+                    </div>
                     <div class="col-12">
                         <p style="font-size: 20px;font-weight: bold">Product 3</p>
                     </div>
@@ -334,7 +725,9 @@
             <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
                     border: solid 1px #e8e8e8;border-radius: 5%">
                 <div class="row" style="margin: unset;">
-                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;padding: unset;">
+                        <img class="d-block w-100" src="images/3.jpg" style="width: 100%;height: 100%;">
+                    </div>
                     <div class="col-12">
                         <p style="font-size: 20px;font-weight: bold">Product 4</p>
                     </div>
@@ -345,7 +738,9 @@
             <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
                  border: solid 1px #e8e8e8;border-radius: 5%">
                 <div class="row" style="margin: unset;">
-                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;padding: unset;">
+                        <img class="d-block w-100" src="images/3.jpg" style="width: 100%;height: 100%;">
+                    </div>
                     <div class="col-12">
                         <p style="font-size: 20px;font-weight: bold">Product 5</p>
                     </div>
@@ -356,7 +751,9 @@
             <div class="containery card" style="height: 200px;box-shadow: 0px 3px 6px rgba(0,0,0,0.1);
                     border: solid 1px #e8e8e8;border-radius: 5%">
                 <div class="row" style="margin: unset;">
-                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;"></div>
+                    <div class="col-12" style="background-color: black;height: 150px;border-radius: 5%;padding: unset;">
+                        <img class="d-block w-100" src="images/3.jpg" style="width: 100%;height: 100%;">
+                    </div>
                     <div class="col-12">
                         <p style="font-size: 20px;font-weight: bold">Product 6</p>
                     </div>
