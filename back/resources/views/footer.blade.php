@@ -119,7 +119,7 @@
         </div>
     </div>
 </div>
-</div>
+
 
 <script src="{{URL :: asset ('js/jquery-3.3.1.min.js')}}"></script>
 <script src="{{URL :: asset ('styles/bootstrap4/popper.js')}}"></script>

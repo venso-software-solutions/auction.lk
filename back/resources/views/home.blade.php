@@ -142,7 +142,7 @@
 
 </div>
 
-    <div class="container" style="width: 100%;padding: unset;padding-top: 2%;padding-bottom: 2%;">
+<div class="container" style="width: 100%;padding: unset;padding-top: 2%;padding-bottom: 2%;">
     <div class="row" style="padding-top: 2%;margin: unset;">
         <div class="col-sm-10 col-xs-12" style="padding-left: 3%;">
                 <li class="normal--2QYVk gtm-normal-ad first-add--1u5Mw" style="width: unset;height: 6.7%;">
@@ -796,7 +796,7 @@
         </div>
 
     </div>
-    </div>
+</div>
 
 
     <!-- Trends -->
