@@ -1,0 +1,615 @@
+meke startup eke parts dekak tinawa.
+    configureservices
+        mekedi karanne DI set eka mvc set entity framework set  use karana eka.
+    configure 
+        mekedi karanne http pipeline eke use karana pipes middleware use karana eka.
+--------------------------------------------------------------------
+HTTPVERBS
+    mekedi api CRUD use karanne naha.e wenuwata use karanne http verbs.
+        create -----------post
+        read    ----------get
+        update------------put
+        delete------------delete
+-------------------------------------------------------------------------------------
+CONTROLLER
+    meka hadaganna snnipet ekak use karanna puluwan. ethakata enne me wage ekake.
+            namespace Api.Controllers
+    {
+
+        using Microsoft.AspNetCore.Mvc;
+
+        public class VehicleController : Controller
+        {
+            public IActionResult Index()
+            {
+                return View();
+            }
+
+            public IActionResult Welcome()
+            {
+                ViewData["Message"] = "Your welcome message";
+
+                return View();
+            }
+        }
+    }
+
+    names tika deela hariyata hadaganna one.ita passe karanna tinne api ekak widihata hadaganna eka.
+    meka thama mvc walata eka template eka.
+        meka api walata use karanna hadaganna wanam karanna tinne
+            [ApiController]
+            [Route("api/[controller]")]
+        me deka class ekata udin dana eka.
+
+            function eka laga [httpget] wage ekak danawa postman wage ewata adunaganna
+            eka nathiwath wada. bt danna eka.
+        
+        *anti eka thama controller eke nama hariyatama tibbahama athi.simple da capital da kiyana eka adala naha.
+---------------------------------------------------------------------------------
+MVC AND API DIFFERENCE
+    uda ena template eka thama apita use karanna wenne.
+        mvc nam return karanne view eka tinna one view folder eke tinna one.
+        view forlder eka athule vehicle kiyala folder eka athule controller eke function walata adala
+        pages tinna one.meka mvc folder eke tinawa.
+
+------------------------------------------------------------------------------------------------------
+GET REQUEST CONTROLLER
+    static List<Vehicle> vehicleList=new List<Vehicle>(){
+        new Vehicle(){Id=0,Price=100000,Title="wagonR"},
+        new Vehicle(){Id=1,Price=200000,Title="apache"},
+        new Vehicle(){Id=0,Price=300000,Title="scooty"},
+        };
+
+        [HttpGet] 
+        public IEnumerable<Vehicle> Get(){
+            return vehicleList;
+        }
+---------------------------------------------------------------------------------------------------
+POST REQUEST CONTROLLER
+    mekedi api function ekak hadala 
+
+         [HttpPost]
+        public void post([FromBody]Vehicle vehicle)
+        {
+            vehicleList.Add(vehicle);
+            //vehicle list eka static karanawa ethakota eka copy ekai hadenne.
+        }
+    
+    parameters gawin FromBody kiyana eka danna one mokada postman eke body eken thamai meka karanne.
+    referesh karoth nathi wenawa. temparary tinne.database ekak nahane ekai.
+--------------------------------------------------------------------------------------------------------------
+PUT REQUEST CONTROLLER
+
+    [HttpPut("{i}")]
+        public void putvehicle(int i,[FromBody]Vehicle vehicle)
+        {
+            vehicleList[i]=vehicle;
+            //vehicle list eka static karanawa ethakota eka copy ekai hadenne.
+        }
+    
+    mekedi i,vehicle dekama parameters danna one.HttpPut(1) id ekata danna one.
+    mekath temparary ekak.
+        anith eka thamai method name eka wenas una kiyala kamak naha.
+------------------------------------------------------------------------------------------------------------------
+DELETE REQUEST CONTROLLER
+    [HttpDelete("{i}")]
+        public void Delete(int i)
+        {
+            vehicleList.RemoveAt(i);
+            //vehicle list eka static karanawa ethakota eka copy ekai hadenne.
+        }
+-----------------------------------------------------------------------------------------------------------------------
+NUGET PACKAGES TO use
+
+    dotnet add package Microsoft.EntityFrameworkCore
+    dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+----------------------------------------------------------------------------------------------
+Db context
+    data class eke thami meka hadanne.
+
+    make a class with any name and inherit from DbContext
+        this Db context comming from EntityFrameworkCore namespace.this class is responsible to 
+        work with the database.I mean that crud operation with the database.
+            the DbContext options instance carries configuration informations such as connection string,the database to use.
+            the esiest way to pass an instance of DbContext option class is by creating a ctor.
+        
+        after that we add a propety.it is going to return dbset of vehicle.If we create that propety name as vehicles then ef will 
+        create a table inside a database with the same name. 
+
+    make a controller and name it as vehicleController.
+
+        make a ctor and pass datacantext as a parameter.because it responsible for connection with database.
+
+---------------------------------------------------------------------------------------------------------
+ADD connection string
+    to work with the database we must need to create connection string.go to the startup class.
+    then add connection string to the services as follows.
+----------------------------------------------------------------------------------------------------------------
+HttpGet Vehicle LIST 
+     [HttpGet]
+        public IEnumerable<Vehicle> Get()
+        {
+            return _dataContext.vehiclesTbl;
+        }
+-----------------------------------------------------------------------------------------------------------
+HttpGet one vehicle
+    [HttpGet("{id}")]
+        public Vehicle Get(int id)
+        {
+            var vehicle=_dataContext.vehiclesTbl.Find(id);
+            return vehicle;
+        }
+--------------------------------------------------------------------------------------------------------------------
+HttpPost 
+     [HttpPost]
+        public void Post([FromBody] Vehicle vehicle)
+        {
+            _dataContext.vehiclesTbl.Add(vehicle);
+            _dataContext.SaveChanges();
+        }
+
+    meke id eka auto increment wenawa.eka hinda id ekata value ekak denna one wenne naha.
+-------------------------------------------------------------------------------------------------------------------
+HttpPut
+     [HttpPut("{id}")]
+        public void Put(int id, [FromBody] Vehicle vehicle)
+        {
+            var entity =_dataContext.vehiclesTbl.Find(id);
+            entity.Title=vehicle.Title ?? entity.Title;
+            entity.Price=vehicle.Price ?? entity.Price;  //methana vehicle eke double danna baha eka hinda athana ? eka use karanawa. 
+        
+            _dataContext.SaveChanges();
+
+        }
+---------------------------------------------------------------------------------------------------------------------
+44444444444
+    HttpStatus Code
+        mekedi use karanne return karana eka http status code ekak.
+            palamuwa use karanne return ok() meka use krahama IEnumerable walin wada karanne naha.mekata use karanna one 
+                        [HttpGet]
+                public IActionResult Get()
+                {
+                // return _dataContext.vehiclesTbl;
+
+                    return Ok( _dataContext.vehiclesTbl);
+
+                }
+             // return StatusCode(200);
+            // return StatusCode(StatusCodes.Status200OK);
+        menna me dekath use karanna puluwan.
+    ------------------------------------------------------------------------------------------------------------------
+    HttpStatus code post    
+         [HttpPost]
+        public IActionResult Post([FromBody] Vehicle vehicle)
+        {
+            _dataContext.vehiclesTbl.Add(vehicle);
+            _dataContext.SaveChanges();
+            return StatusCode(StatusCodes.Status201Created);
+        }
+    ---------------------------------------------------------------------------------------------------------------------
+    HttpStatus code put 
+          [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] Vehicle vehicle)
+        {
+            var entity =_dataContext.vehiclesTbl.Find(id);
+            entity.Title=vehicle.Title ?? entity.Title;
+            entity.Price=vehicle.Price ?? entity.Price;  //methana vehicle eke double danna baha eka hinda athana ? eka use karanawa. 
+        
+            _dataContext.SaveChanges();
+
+            return Ok("updated successfully");
+
+        }
+
+        return body eke return karana message eka tinawa.mekedi recode ekak nathi data ekak dammahama eken error ekak enawa.meka hadanna one 
+        me widihatama delete eketh karanawa get eke id ekak return karanakotath karanawa.
+    ---------------------------------------------------------------------------------------------------------------------
+    CONTENT NEGOTIATION
+        mekedi karanne client header eke liyala ewanna one one data eka mona format ekenda one kiyala.xml walinda naththam json walin da one kiyala.
+        asp.netcore wala tinne hama welema json walin thami content eka denne. apita xml walin one nam karanna tinne api denna one 
+
+        services.AddMvc().AddXmlSerializerFormatters();
+            meka athiwa wadak naha kochchara illuwath.xml walin denna baha.xmal walin one nam weka startup eke gihin wenas karanna one.
+            mekedi wenne athhtama api pipeline eken client ta one eka hadala dena eka.
+
+------------------------------------------------------------------------------------------------------------
+555555555555555
+    migration
+        api hadapu code ekata vehicle ekata thawa attribite ekak ekathu kala kiyanna.wadak wenne naha mokada apu startup eke 
+        use karalatinne 
+            dataContext.Database.EnsureCreated(); 
+        EnsureCreated kiyana eka. meka use karahama wenne model eka wenas karath wenas wenne naha.eka hinda hodama de thamai 
+        ekata code first migration use karana eka.
+            dan kranna tinne 
+                dataContext.Database.EnsureCreated() eka comment karala db eka delete karana eka.ita passe use karanna puluwan.
+            migration tika.
+        ----------------------------------------------------------
+        migration walata use karanna one nuget package eka. migration use karanakota one tool ekak thmai me nuget package eke tinne.
+            dotnet add package Microsoft.EntityFrameworkCore.Tools 
+             dotnet ef migrations add initMigration
+                meka thamai use karanna one 
+                    dotnet ef database update <migrationName> methanadi database eka update karala migration karana name eka elesama
+                use karanna.
+-----------------------------------------------------------------------------------------------------------------
+666666666
+    model validation
+        backend develops la vidihata karanna tinne data validate karana eka.model eke tina titile eka price eka color eka require 
+        wenna one.
+                 public class Vehicle
+                {
+                    public int Id { get; set; }
+
+                    [Required]
+                    [Range(0, 9999.99)]
+                    public double ? Price { get; set; }
+
+                    [Required]
+                    public string Title { get; set; }
+
+                    [Required]
+                    public string color { get; set; }
+                }
+--------------------------------------------------------------------------------------------------------------------------
+77777777
+    routing overview [attribute routing]
+        apita danata vehicle eke id eka use karahama ekata adala vehicle eka ganna puluwan.eth api gahuwa kiyamu thawa ewagema ekak
+         [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            var vehicle = _dataContext.vehiclesTbl.Find(id);
+            // return vehicle;
+            if (vehicle==null)  
+            {
+                return NotFound("record not found");
+            }
+            else{
+                return Ok("Record is on the database");
+            }
+
+        }
+
+        [HttpGet("{id}")]
+        public int Test(int id)
+        {
+            return id;
+        }
+    
+    me deka use karanakota error ekak enawa.eka hinda hodama de thamai attribute routing karana eka.meka hadanna use 
+    karanne 
+        ("[action]/{id}") kiyana eka.
+    
+        // GET: api/ApiReadWrite/5
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            var vehicle = _dataContext.vehiclesTbl.Find(id);
+            // return vehicle;
+            if (vehicle==null)  
+            {
+                return NotFound("record not found");
+            }
+            else{
+                return Ok(vehicle);
+            }
+
+        }
+        // GET: api/ApiReadWrite/test/5
+        [HttpGet("[action]/{id}")]
+        public int Test(int id)
+        {
+            return id;
+        }
+
+    me widihata thma eka use karanne.
+---------------------------------------------------------------------------
+888888888
+    karanna tinne apita one karana models tika hadala ewata validation dana eka.
+    mekedi 
+            User --one----------many---Vehicle
+            Vehicle --one--------many---Image
+            Category --one------many---Vehicle
+    api use karanakata one to many use karanna one.ekata karanna one 
+        public ICollection<Vehicle> Vehicles { get; set; }
+    me vidihata thamai use karanne.meka danne user model eke mokada user vehicle one to many hinda.
+        ita passe DbSet eke danna one.
+    danata edit karapu vehicel eka delete karanawa.eka tiyanawa vehicleTest kiyala tiyagannawa.
+        meke tina database ekath delete karanawa.   
+            migration delete karanna one ewath dan useless.
+
+    --------------------------------------------------------------------------------------------
+    
+using System.Collections.Generic;
+using Api.data;
+using Api.models;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Api.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class VehicleTestController : ControllerBase
+    {
+        private readonly DataContext _dataContext;
+
+        public VehicleTestController(DataContext dataContext)
+        {
+            _dataContext = dataContext;
+
+        }
+        // GET: api/ApiReadWrite
+        [HttpGet]
+        public IActionResult Get()
+        {
+            // return _dataContext.vehiclesTbl;
+
+            return Ok(_dataContext.vehiclesTbl);
+            // return StatusCode(200);
+            // return StatusCode(StatusCodes.Status200OK);
+
+        }
+
+        // GET: api/ApiReadWrite/5
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            var vehicle = _dataContext.vehiclesTbl.Find(id);
+            // return vehicle;
+            if (vehicle==null)  
+            {
+                return NotFound("record not found");
+            }
+            else{
+                return Ok(vehicle);
+            }
+
+        }
+        // GET: api/ApiReadWrite/test/5
+        [HttpGet("[action]/{id}")]
+        public int Test(int id)
+        {
+            return id;
+        }
+
+
+        // POST: api/ApiReadWrite
+        [HttpPost]
+        public IActionResult Post([FromBody] Vehicle vehicle)
+        {
+            _dataContext.vehiclesTbl.Add(vehicle);
+            _dataContext.SaveChanges();
+            return StatusCode(StatusCodes.Status200OK);
+        }
+
+        // PUT: api/ApiReadWrite/5
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] Vehicle vehicle)
+        {
+            var entity = _dataContext.vehiclesTbl.Find(id);
+            if (entity == null)
+            {
+                return NotFound("record not found");
+            }
+            else
+            {
+                entity.Title = vehicle.Title ?? entity.Title;
+                entity.Price = vehicle.Price ?? entity.Price;  //methana vehicle eke double danna baha eka hinda athana ? eka use karanawa. 
+                entity.color=vehicle.color ?? entity.color;
+                _dataContext.SaveChanges();
+
+                return Ok("updated successfully");
+
+            }
+
+
+        }
+
+        // DELETE: api/ApiWithActions/5
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var entity = _dataContext.vehiclesTbl.Find(id);
+            if (entity == null)
+            {
+                return NotFound("record is not found");
+
+            }
+            else
+            {
+                _dataContext.vehiclesTbl.Remove(entity);
+                _dataContext.SaveChanges();
+                return Ok("successfully added");
+            }
+
+
+        }
+    }
+}
+-------------------------------------------------------------------------
+999999999999
+    mekedi Category controller eka add karanna tinne.
+        mekedi karanne get eka witharai denne post ekak client ta denne naha.eka nisa database eke 
+            Category list eka tinna one.mekta gannna Category thmai car bus truck thuna witharai.
+---------------------------------------------------------------------------
+10101010101010101010
+    mekedi security wadiprama karanne authentication and authorization
+        account kiyala controller ekak hadala ekata register kiyala method ekak hadanna tinne.
+    ita passe balanna one ekama email address eken dennekta log wenna baha.eka hinda karanna one eka validate karana 
+    eka.
+        mekedi body eke tiyena json file eken data aragena user gen obj ekak hadala eka pass karanawa user table ekata.
+        mekedi imageUrl ekai phone no ekai yawanne naha eka yawanne wenama widihakata.
+    ---------------------------------------------------------------
+    PASSWORD HASHING
+        mekata nuget package ekak tinawa eka daganna one.
+            dotnet add package AspNetCore.Authentication.Plugin
+        meke git gihin tina documentation eke tinama hash karana widiha.
+             Password=SecurePasswordHasherHelper.Hash(user.Password)
+                meken thama hash function eka wadinne.
+    --------------------------------------------------------------------------
+    JWt authentication 
+        json web token meken thmai authentication tika handle karanne.
+            securely trasmission of data between two parties.meke structure eka kotas thunakata tinne.
+                aaaa.bbbb.cccc
+            aa=header  bb=payload cc=signature 
+            header- mka use kranne algo ekai type ekai. token eka hadanne algo ekan type eka use karala thamai 
+            payload - meke thmai data ekka aditional data yawanawa eke expire date eka wage ewwa use karanawa.
+            signature - mekedi karanne header ekai payload ekai dekama aragena algo ekak use karala signature ekak dala 
+                yawana eka karanne.meke more security ekak denawa.
+        ----------------------------------------------------------------------------------
+        HOW IT WORKS
+            mekedi client auth server ekata della jwt token ekak gannawa.eka pass karanawa server ekata ita passe 
+            eka check karanawa valid the invalid da kiyala.invalid nam unauthorized user kiyala access nodi innawa.
+        -------------------------------------------------------------------------------
+        IMPLEMENT 
+            mkedi pulgin eka daganna one mulin
+                 dotnet add package AspNetCore.Authentication.Plugin
+            ita passe code ekak danna startup ekata.eka danna one 
+                services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+                        ValidIssuer = Configuration["Tokens:Issuer"],
+                        ValidAudience = Configuration["Tokens:Issuer"],
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Tokens:Key"])),
+                        ClockSkew = TimeSpan.Zero,
+                    };
+                });
+
+                meka service file ekata danna one.
+                    ita passe mewwa import karanna.
+                        using Microsoft.IdentityModel.Tokens;
+                        using Microsoft.AspNetCore.Authentication.JwtBearer;
+                    error enawanam neget package eka danna one.
+                        dotnet add package Microsoft.AspNetCore.Authentication.JwtBearer 
+            
+            ita passe karanna tinne service file eke.eke authorization ekata kalin danna one.
+                app.UseAuthentication();
+            ita passe app setting jason ekata danna one me code eka.
+
+                "Tokens": {
+                "Key": "ASPNETCORESECRETKEYFORAUTHENTICATIONANDAUTHORIZATION",
+                "Issuer": "localhost.com",
+                "AccessExpireSeconds": "86400"
+                },
+
+                meke key eke name eka apita one widihahta wenas karaganna puluwan.token eka expire wenne paya 24 di.
+            ita passe karanna tinne jwt data controller eka mekedi nam AccountController ekata 
+    --------------------------------------------------------------------------------------------------------
+        me okkama wada kare register function eka tiyeddi.ita passe karanna one login funciton eka hadana eka.
+              var userEmail = _dataContext.UserTbl.FirstOrDefault(u => u.Email == user.Email);
+            if (userEmail == null)
+            {
+                return NotFound();
+            }
+            //password eka check karana eka
+            if (!SecurePasswordHasherHelper.Verify(user.Password, userEmail.Password))
+            {
+                return Unauthorized();
+                //methanadi not found newe unauthorized danna one mokada password wadradi kiyanne 
+                //unauthorized kenek thami log wenne hinda. 
+
+            }
+    ------------------------------------------------------------------------------------------------
+        medika login function eka athule tiyenna one.
+              var claims = new[]
+            {
+                new Claim(JwtRegisteredClaimNames.Email, user.Email),
+                new Claim(ClaimTypes.Email, user.Email),
+            };
+        ita passe meka tiyenna one.meken karanne claim karana eka.eka one token eka hadaganna.
+
+            var token = _auth.GenerateAccessToken(claims);
+        meken thami token eka hadala denne.
+
+    -----------------------------------------------------------------------------------
+    ROUTE GARD
+        mekedi karanne authorized ayata wiharai access karanna pulwan.
+            eg- Category eka kiyala hithapan ekedi karanne udin authorized kiyala dana eka.
+                   [Route("api/[controller]")]
+                    [ApiController]
+                    [Authorize]
+        meka mehama dammahama meke athule tina hama ekatama unauthorized ayata log venna baha.
+            controller eke ekakata witharak nam danna one e methord ekata udin  [Authorize] meka danna puluwan.
+        hama method ekakma authorized karala ekak witharak free karanna one nam karanna tinne,
+            [AllowAnonymous] eka method ekata udin dana eka.
+    -----------------------------------------------------------------------------------------------------
+    USER ACCESS Tokens
+        authorized ewwata token eka pass karanna one header eken bear kiyala liyala passe token eka pass karanna one.
+    ---------------------------------------------------------------------------------------------------------
+    CHANGE PASSWORD
+        mekedi change password ekata property tikak tinawa ektika daganna one.
+            ita passe account controller eka change password method ekak hadanna one.
+                 var userEmail=User.Claims.FirstOrDefault(c=>c.Type==ClaimTypes.Email).Value;
+            mekedi karanne apita eana token eken email eka extract karala ganna eka.eka thama claim eken karanne.
+        ita passe balanawa email eka data base eke tinawada kiyala ehema thathham not found ekak denawa.
+        ita psse old password eka ekka compare karala balanawa.
+              user.Password=SecurePasswordHasherHelper.Hash(changePassword.NewPassword);
+            _dataContext.SaveChanges();
+            return Ok("your password has been changed!");
+        meka use kranawa passe.
+            model eke haduwa new password ekai confirm password ekai match karanna one.ekata karanna tinne
+                  [Compare("NewPassword",ErrorMessage="The password and the confirm password doesnot match")]
+            meka confirm password ekata udin danna one.ethakota thmai password deka compare wenne.
+    ---------------------------------------------------------------------------------------------------------
+    EDIT PHONE NUMBER
+        mekedi karanne number eka change karanna one unama post ekak hadana eka thma karanne.
+        mekath hariyatam change password wage thmai.
+    -----------------------------------------------------------------------
+    IMAGE UPLOAD KARANA widiha 
+        mekata mulin nuget package ekak danna one.
+            dotnet add package AspNetCore.ImageUploader 
+        ita passe karanne mail ekata adala claim eka ragena e mail eka database eke tiyeda balana eka thma 
+        authorized ekedi karanne.
+            ita passe image eka upload karanna tinne.
+
+                     var stream = new MemoryStream(byte[] ImageArray);
+                    var guid = Guid.NewGuid().ToString();
+                    var file = $"{guid}.jpg";
+                    var folder = "Images";
+                    var response = FilesHelper.UploadImage(stream, folder, file);
+                    if (!response)
+                    {
+                        // Bad Request...
+                    }
+                    else
+                    {
+                        // Image Uploaded...
+                    }       	
+        mekedi api body eken ImageArray eka ganna hinda eke byte[] kiyala define karala tina hinda karanna 
+        tinne byte[] kiyana eka ain karana eka.
+            meka api save karanne byte walin hinda mobile develepers la karanna one meka hadaganna one image eka byte walata convert karaganna.
+------------------------------------------------------------------------------------------------------------------------------------------------
+11
+    vehicel controller 
+        mekedi vehicle id eka return karanawa mokada eken vehicle eke pictures add karaganna one hinda.
+        meke id eka use krala e id ekata adala vehicle images tikak upload karannna hadanna hadanne.
+    ----------------------------------------------------------------------------------------------------------------------
+    image controller   
+        mekedi issella image upload karannna hadapu image ekama use karanna puluwan.hambi from body eke tinne image model eka.eke 
+        byte array eakk naha. eka hinda karanne byte array ekak danawa.meka aththatama one property ekak neme.mokada database ekata yanna 
+        one naha.eka hinda karanne [NotMapped] kiyala dana eka.
+            NotMapped admmahama migrations danna one naha.mokada eka damme naththam model eka change wela hinda migrate karanna kiyala 
+            error ekak denawa.
+        meke vehicle id eka same eka hinda vehicle id eka unique karanna one.
+    --------------------------------------------------------------------------------------------------------------------------
+    hot and new vehicle
+        mekedi hot and new vehicle okkoma tika return karana eka thama karanne.
+        -------------------------------------------------------------------------------------------------------------------
+    search vehicle method
+        search bar eke mokak hari gahumahama eka serch wenna monawada karanna one. kiyana eka.
+    --------------------------------------------------------------------------
+    get vehicle method
+        mekedi karanne category button eka click karama ekata anuwa data tika retrive venna one.
+    ---------------------------------------------------------------------------
+    get vehicle details 
+        mekedi karanne vehicle ekai image ekai dekama join karala eken details ganna eka.ekata api use karanne join keyword
+        eka.
+		
+	------------------------------------------------------------------------------------------------------------
+	 // "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=RestFullApiDb;Trusted_Connection=True;MultipleActiveResultSets=True"
+	 me connetction eka thama delete karala danna one azure connection string eka.
